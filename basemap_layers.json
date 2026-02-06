@@ -1,0 +1,6 @@
+{
+  "version": "2.3",
+  "displayName": "baseMapLayers",
+  "isVisible": true,
+  "classType": "Basemap_Layer"
+}

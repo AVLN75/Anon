@@ -1,0 +1,122 @@
+{
+  "version": "2.3",
+  "displayName": "operationalLayers",
+  "isVisible": true,
+  "classType": "Operation_Layer",
+  "children": [
+    {
+      "displayName": "my_drawings.kmz",
+      "isVisible": true,
+      "classType": "MyDrawings",
+      "sourceURI": "data\\my_drawings.kmz"
+    },
+    {
+      "displayName": "My Data",
+      "isVisible": true,
+      "classType": "WorkSpace_Folder",
+      "id": "my_data",
+      "children": [
+        {
+          "id": "rHI/C7H8RXCYgLX2ts/hRg",
+          "opacity": 1.0,
+          "displayName": "My Drawings",
+          "isVisible": true,
+          "classType": "KML_Layer",
+          "sourceURI": "C:\\Users\\Mtliv\\OneDrive\\OSI\\Earth_Workspace\\workspace\\data\\my_drawings.kmz"
+        },
+        {
+          "id": "ACghnTyDQoup7xkxiZKgXQ",
+          "opacity": 1.0,
+          "displayName": "sovereign_nodes.geojson",
+          "isVisible": true,
+          "classType": "FeatureCollection_Layer",
+          "sourceURI": "D:\\Sovereign_Project\\sovereign_nodes.geojson",
+          "drawingInfos": [
+            {
+              "renderer": {
+                "symbol": {
+                  "angle": 0.0,
+                  "color": [
+                    0,
+                    0,
+                    0,
+                    255
+                  ],
+                  "size": 3.75,
+                  "style": "esriSMSCircle",
+                  "type": "esriSMS",
+                  "xoffset": 0.0,
+                  "yoffset": 0.0
+                },
+                "type": "simple"
+              },
+              "userSetting": {
+                "symbolStyle": null,
+                "symbolKey": null
+              }
+            }
+          ],
+          "labelingInfos": [
+            {
+              "isLabelingEnabled": false,
+              "labelingInfo": null
+            }
+          ],
+          "ids": [
+            {
+              "id": "bd22b8dd-be98-4329-94eb-b332966626f9"
+            }
+          ]
+        },
+        {
+          "id": "S3OIzGyzRD6tz1V01Q5X8A",
+          "opacity": 1.0,
+          "displayName": "Sovereign_Live_Telemetry",
+          "isVisible": true,
+          "classType": "KML_Layer",
+          "sourceURI": "D:\\Sovereign_Project\\Sovereign_Link.kml"
+        },
+        {
+          "id": "iSzMnZE/RSaV8gjR4tTh9g",
+          "opacity": 1.0,
+          "displayName": "sovereign_bots",
+          "isVisible": true,
+          "classType": "KML_Layer",
+          "sourceURI": "D:\\Sovereign_Project\\sovereign_bots.kml"
+        },
+        {
+          "id": "PUy2zwxPSjejG6wvC8Ddqg",
+          "opacity": 1.0,
+          "displayName": "Remote_Sovereign_Link",
+          "isVisible": true,
+          "classType": "KML_Layer",
+          "sourceURI": "D:\\Sovereign_Project\\Remote_Sovereign_Link.kml"
+        },
+        {
+          "id": "2k7HNYYoQ4mtwdzWSz+MsA",
+          "opacity": 1.0,
+          "displayName": "TESLA_MASTER_NODE",
+          "isVisible": true,
+          "classType": "KML_Layer",
+          "sourceURI": "D:\\Sovereign_Project\\tesla_node.kml"
+        },
+        {
+          "id": "kLS4KpSyQKiwT54DOLAhjg",
+          "opacity": 1.0,
+          "displayName": "Remote_Sovereign_Link",
+          "isVisible": true,
+          "classType": "KML_Layer",
+          "sourceURI": "D:\\Sovereign_Project\\Remote_Sovereign_Link.kml"
+        },
+        {
+          "id": "APa6YdVDR1Ww4BxsupJaGQ",
+          "opacity": 1.0,
+          "displayName": "sovereign_bots",
+          "isVisible": true,
+          "classType": "KML_Layer",
+          "sourceURI": "D:\\Sovereign_Project\\sovereign_bots.kml"
+        }
+      ]
+    }
+  ]
+}
