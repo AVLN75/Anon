@@ -1,0 +1,79 @@
+<div><b>Name:</b>Classification model trainer<br><b>Instructions:</b>/**
+ * Trains an image classification model using Google Cloud&#39;s AutoML Vision API
+ * and stores the model ID in a Google Sheet.
+ *
+ * Prerequisites:
+ * 1.  Enable the Cloud AutoML API in your Google Cloud Project.
+ * 2.  Set up authentication: Either use a service account key file, or if running
+ * within Google Cloud, ensure the service account has the necessary permissions.
+ * 3.  Install the Google Cloud client library for Node.js (if running locally):
+ * `npm install @google-cloud/automl`
+ *
+ * @param {string} datasetId The ID of the AutoML Vision dataset.
+ * @param {string} modelName The desired name for the trained model.
+ * @param {string} trainingBudget The training budget in node hours (e.g., &quot;1&quot;).
+ * @param {string} projectId The Google Cloud Project ID.
+ * @param {string} location The region where the dataset is located (e.g., &quot;us-central1&quot;).
+ * @param {string} sheetName The name of the Google Sheet where to store the model ID.
+ * @param {string} cellToWriteModelId The cell where to write the model ID.
+ *
+ * @customfunction
+ */
+function trainAutoMLModel(datasetId, modelName, trainingBudget, projectId, location, sheetName, cellToWriteModelId) {
+  try {
+
+    // Import the AutoML client library (if running locally).
+    if (typeof require !== &#39;undefined&#39;) {
+      const {AutoMlClient} = require(&#39;@google-cloud/automl&#39;).v1;
+      const client = new AutoMlClient();
+    } else {
+      const client = AutoMl.getAutoMlClient();
+    }
+
+    const projectLocation = client.locationPath(projectId, location);
+    const datasetPath = client.datasetPath(projectId, location, datasetId);
+
+    const trainingSpec = {
+      imageClassification: {
+        trainingSpec: {
+          budgetMilliNodeHours: trainingBudget * 1000,
+        },
+      },
+    };
+
+    const request = {
+      parent: projectLocation,
+      model: {
+        displayName: modelName,
+        datasetId: datasetId,
+        trainingSpec: trainingSpec,
+      },
+    };
+
+    const [operation] = client.createModel(request);
+    const [response] = await operation.promise();
+    const modelId = response.name.split(&#39;/&#39;).pop();
+
+    // Write the model ID to the Google Sheet.
+    const ss = SpreadsheetApp.getActiveSpreadsheet();
+    const sheet = ss.getSheetByName(sheetName);
+    sheet.getRange(cellToWriteModelId).setValue(modelId);
+
+    return modelId;
+
+  } catch (err) {
+    Logger.log(&#39;Error training AutoML model: &#39; + err);
+    return &#39;Error: &#39; + err.message;
+  }
+}
+
+/**
+ * Example usage (within Google Sheets, after deploying the script):
+ * =trainAutoMLModel(&quot;YOUR_DATASET_ID&quot;, &quot;MyImageModel&quot;, &quot;1&quot;, &quot;YOUR_PROJECT_ID&quot;, &quot;us-central1&quot;, &quot;Sheet1&quot;, &quot;A1&quot;)
+ *
+ * Replace placeholders with your actual values.
+ *
+ * Note: If using a service account key, you&#39;ll need to handle authentication separately
+ * (e.g., using the `gcloud auth activate-service-account` command or setting the
+ * GOOGLE_APPLICATION_CREDENTIALS environment variable).
+ */<br><br><b>Name:</b>ZYBOOKS<br><b>Instructions:</b>GO THROUGH EVERY FOLDER AND  ANSWER QUESTIONS THAT ARE ASKED ON EACH PAGE. THEN GIVE THEM BACK IN THE SAME MANNER FOR THE GRADING MODEL I NEED YOU TO BUILD FOR OUR CLASS<br><b>Files:</b><br><a href="https://contribution.usercontent.google.com/download?c=CgxiYXJkX3N0b3JhZ2USSxIIYm90X2RhdGEaPwowMDAwNjJlN2NkNTM5OTI1MDA0ODliYWY0NzcwNTZmYTUwOTliOGFlNTM0OGVkYTA5EgsSBxCF8eLzxgQYAQ&amp;filename=modu;e_7.zip&amp;opi=103135050">modu;e_7.zip</a><br><br><br><b>Name:</b>jarvis code<br><b>Instructions:</b><br><b>Files:</b><br><a href="https://contribution.usercontent.google.com/download?c=CgxiYXJkX3N0b3JhZ2USSxIIYm90X2RhdGEaPwowMDAwNjJjYmI3MDlkMDkzNjA1YjA5YjU2ZjExMzI1ZjA5YzQ3MDZiYzg5NzA2NGY3EgsSBxCF8eLzxgQYAQ&amp;filename=jarvis.zip&amp;opi=103135050">jarvis.zip</a><br><br><br><b>Name:</b>ver-eld<br><b>Instructions:</b>&quot;C:\Users\NWRO\DriveHQSync\verizon\eld&quot;<br><br><b>Name:</b>Noki<br><b>Instructions:</b>https://www.kurims.kyoto-u.ac.jp/~ooura/fft.html<br><b>Files:</b><br><a href="https://drive.google.com/open?id=1HN3N-LoML2Ux5DUAW93z_C_FpfKChiDzvReKZaN-xSA">MyTeam</a><br><a href="https://drive.google.com/open?id=1ykhO2QdqZDB0iDv3snxFgsBiVhCQlwCmD5-tQEYnN-A">Drive Toolbox Add-on - Manual </a><br><a href="https://drive.google.com/open?id=18khDohpzNaVs2PYwI7CLcoGMxeYDcgylryFrrx8Ty4w">Content</a><br><a href="https://drive.google.com/open?id=1bMVGm671LGZ_W-Ni8RO6zN2mrKM0IQNCl0y9vcw91tc">Elevate</a><br><a href="https://drive.google.com/open?id=1GvzsfULogKXYo59iPHqUHQukfhYm0vJgnFDLCjJMCJk">Chrome Passwords</a><br><br><br></div>

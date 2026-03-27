@@ -1,0 +1,708 @@
+﻿{
+    "Home App Data":  [
+                          {
+                              "full_structures":  [
+                                                      {
+                                                          "owner_emails":  [
+                                                                               "mtlive4175@gmail.com"
+                                                                           ],
+                                                          "owner_create_times":  [
+                                                                                     {
+                                                                                         "value":  {
+                                                                                                       "seconds":  1763022236,
+                                                                                                       "nanos":  322011000
+                                                                                                   },
+                                                                                         "key":  "mtlive4175@gmail.com"
+                                                                                     }
+                                                                                 ],
+                                                          "structure":  {
+                                                                            "update_time":  {
+                                                                                                "seconds":  1763022236,
+                                                                                                "nanos":  643984000
+                                                                                            },
+                                                                            "create_time":  {
+                                                                                                "seconds":  1762944573,
+                                                                                                "nanos":  754014000
+                                                                                            },
+                                                                            "name":  "Iot",
+                                                                            "personalized_nicknames":  [
+                                                                                                           "Iot"
+                                                                                                       ],
+                                                                            "personalized_ui_settings":  {
+                                                                                                             "favorites":  {
+                                                                                                                               "category_type":  "CATEGORY_TYPE_FAVORITES"
+                                                                                                                           }
+                                                                                                         },
+                                                                            "physical_location":  {
+
+                                                                                                  }
+                                                                        }
+                                                      },
+                                                      {
+                                                          "owner_emails":  [
+                                                                               "mtlive4175@gmail.com"
+                                                                           ],
+                                                          "owner_create_times":  [
+                                                                                     {
+                                                                                         "value":  {
+                                                                                                       "seconds":  1709423121,
+                                                                                                       "nanos":  298938000
+                                                                                                   },
+                                                                                         "key":  "mtlive4175@gmail.com"
+                                                                                     }
+                                                                                 ],
+                                                          "structure":  {
+                                                                            "update_time":  {
+                                                                                                "seconds":  1725127130,
+                                                                                                "nanos":  452648000
+                                                                                            },
+                                                                            "create_time":  {
+                                                                                                "seconds":  1709423122,
+                                                                                                "nanos":  351132000
+                                                                                            },
+                                                                            "name":  "SYS1",
+                                                                            "personalized_nicknames":  [
+                                                                                                           "SYS1"
+                                                                                                       ],
+                                                                            "personalized_ui_settings":  {
+                                                                                                             "favorites":  {
+                                                                                                                               "category_type":  "CATEGORY_TYPE_FAVORITES"
+                                                                                                                           }
+                                                                                                         },
+                                                                            "physical_location":  {
+                                                                                                      "country_code":  "GB",
+                                                                                                      "address":  {
+                                                                                                                      "component":  [
+                                                                                                                                        {
+                                                                                                                                            "parsed_name":  [
+                                                                                                                                                                "@{text=300}"
+                                                                                                                                                            ],
+                                                                                                                                            "temporary_data":  {
+
+                                                                                                                                                               },
+                                                                                                                                            "type":  "TYPE_STREET_NUMBER"
+                                                                                                                                        },
+                                                                                                                                        {
+                                                                                                                                            "feature_type":  17,
+                                                                                                                                            "feature_id":  {
+                                                                                                                                                               "fprint":  2080976691908477572,
+                                                                                                                                                               "cell_id":  5226365360002589243
+                                                                                                                                                           },
+                                                                                                                                            "parsed_name":  [
+                                                                                                                                                                "@{flag=System.Object[]; language=ko; text=ë¡ ë§ˆì¼“}",
+                                                                                                                                                                "@{flag=System.Object[]; language=ky; text=Ð›Ð¾Ð½Ð¼Ð°Ñ€ÐºÐµÑ‚}",
+                                                                                                                                                                "@{flag=System.Object[]; language=ru; text=Ð›Ð¾Ð½Ð¼Ð°Ñ€ÐºÐµÑ‚}",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=Lawnmarket; language=en; text=Lawnmarket}",
+                                                                                                                                                                "@{flag=System.Object[]; language=ja; text=ãƒ­ã‚¦ãƒ³ãƒžãƒ¼ã‚±ãƒƒãƒˆ}"
+                                                                                                                                                            ],
+                                                                                                                                            "temporary_data":  {
+
+                                                                                                                                                               },
+                                                                                                                                            "type":  "TYPE_FEATURE"
+                                                                                                                                        },
+                                                                                                                                        {
+                                                                                                                                            "feature_type":  182,
+                                                                                                                                            "feature_id":  {
+                                                                                                                                                               "fprint":  -5276735956487996482,
+                                                                                                                                                               "cell_id":  5226364683289916471
+                                                                                                                                                           },
+                                                                                                                                            "parsed_name":  [
+                                                                                                                                                                "@{flag=System.Object[]; language=ca; text=Edimburg}",
+                                                                                                                                                                "@{flag=System.Object[]; language=is; text=Edinborg}",
+                                                                                                                                                                "@{flag=System.Object[]; language=pl; text=Edynburg}",
+                                                                                                                                                                "@{flag=System.Object[]; language=es; text=Edimburgo}",
+                                                                                                                                                                "@{flag=System.Object[]; language=lv; text=Edinburga}",
+                                                                                                                                                                "@{flag=System.Object[]; language=it; text=Edinburgo}",
+                                                                                                                                                                "@{flag=System.Object[]; language=pt; text=Edinburgo}",
+                                                                                                                                                                "@{flag=System.Object[]; language=zh; text=çˆ±ä¸å ¡}",
+                                                                                                                                                                "@{flag=System.Object[]; language=en; text=Edinburgh}",
+                                                                                                                                                                "@{flag=System.Object[]; language=lt; text=Edinburgas}",
+                                                                                                                                                                "@{flag=System.Object[]; language=fr; text=Ã‰dimbourg}",
+                                                                                                                                                                "@{flag=System.Object[]; language=ln; text=Ã‰dimbourg}",
+                                                                                                                                                                "@{flag=System.Object[]; language=it; text=Edimburgo}",
+                                                                                                                                                                "@{flag=System.Object[]; language=pt; text=Edimburgo}",
+                                                                                                                                                                "@{flag=System.Object[]; language=es; text=Edinburgo}",
+                                                                                                                                                                "@{flag=System.Object[]; language=ar; text=Ø¥Ø¯Ù†Ø¨Ø±Ø©}",
+                                                                                                                                                                "@{flag=System.Object[]; language=ko; text=ì—ë”˜ë²„ëŸ¬}",
+                                                                                                                                                                "@{flag=System.Object[]; language=zh-TW; text=æ„›ä¸å ¡}",
+                                                                                                                                                                "@{flag=System.Object[]; language=ar; text=Ø¥Ø¯Ù†Ø¨Ø±Ù‡}",
+                                                                                                                                                                "@{flag=System.Object[]; language=ko; text=ì—ë“ ë²„ëŸ¬}",
+                                                                                                                                                                "@{flag=System.Object[]; language=iw; text=××“×™× ×‘×¨×•}",
+                                                                                                                                                                "@{flag=System.Object[]; language=bg; text=Ð•Ð´Ð¸Ð½Ð±ÑƒÑ€Ð³}",
+                                                                                                                                                                "@{flag=System.Object[]; language=sr; text=Ð•Ð´Ð¸Ð½Ð±ÑƒÑ€Ð³}",
+                                                                                                                                                                "@{flag=System.Object[]; language=uk; text=Ð•Ð´Ñ–Ð½Ð±ÑƒÑ€Ð³}",
+                                                                                                                                                                "@{flag=System.Object[]; language=ru; text=Ð­Ð´Ð¸Ð½Ð±ÑƒÑ€Ð³}",
+                                                                                                                                                                "@{flag=System.Object[]; language=iw; text=××“×™× ×‘×•×¨×•}",
+                                                                                                                                                                "@{flag=System.Object[]; language=hy; text=Ô·Õ¤Õ«Õ¶Õ¢Õ¸Ö‚Ö€Õ£}",
+                                                                                                                                                                "@{flag=System.Object[]; language=ja; text=ã‚¨ãƒ‡ã‚£ãƒ³ãƒãƒ©}",
+                                                                                                                                                                "@{flag=System.Object[]; language=el; text=Î•Î´Î¹Î¼Î²Î¿ÏÏÎ³Î¿}",
+                                                                                                                                                                "@{flag=System.Object[]; language=hi; text=à¤à¤¡à¤¿à¤¨à¤¬à¤°à¥à¤—}",
+                                                                                                                                                                "@{flag=System.Object[]; language=th; text=à¹€à¸­à¸”à¸´à¸™à¸šà¸°à¸£à¸°}"
+                                                                                                                                                            ],
+                                                                                                                                            "temporary_data":  {
+
+                                                                                                                                                               },
+                                                                                                                                            "type":  "TYPE_FEATURE"
+                                                                                                                                        },
+                                                                                                                                        {
+                                                                                                                                            "feature_type":  33,
+                                                                                                                                            "feature_id":  {
+                                                                                                                                                               "fprint":  -4253473637580397190,
+                                                                                                                                                               "cell_id":  169512881300672937
+                                                                                                                                                           },
+                                                                                                                                            "parsed_name":  [
+                                                                                                                                                                "@{flag=System.Object[]; text=GB}",
+                                                                                                                                                                "@{flag=System.Object[]; language=en; text=UK}",
+                                                                                                                                                                "@{flag=System.Object[]; language=ja; text=è‹±å›½}",
+                                                                                                                                                                "@{flag=System.Object[]; language=ko; text=ì˜êµ­}",
+                                                                                                                                                                "@{flag=System.Object[]; language=zh; text=è‹±å›½}",
+                                                                                                                                                                "@{flag=System.Object[]; language=is; text=Bretland}",
+                                                                                                                                                                "@{flag=System.Object[]; language=ca; text=Regne Unit}",
+                                                                                                                                                                "@{flag=System.Object[]; language=tr; text=Ä°ngiltere}",
+                                                                                                                                                                "@{flag=System.Object[]; language=zh-TW; text=è‹±åœ‹}",
+                                                                                                                                                                "@{flag=System.Object[]; language=sw; text=Uingereza}",
+                                                                                                                                                                "@{flag=System.Object[]; language=it; text=Regno Unito}",
+                                                                                                                                                                "@{flag=System.Object[]; language=es; text=Reino Unido}",
+                                                                                                                                                                "@{flag=System.Object[]; language=fr; text=Royaume-Uni}",
+                                                                                                                                                                "@{flag=System.Object[]; language=ln; text=Royaume-Uni}",
+                                                                                                                                                                "@{flag=System.Object[]; language=no; text=Storbritannia}",
+                                                                                                                                                                "@{flag=System.Object[]; language=et; text=Suurbritannia}",
+                                                                                                                                                                "@{flag=System.Object[]; language=ro; text=Regatul Unit}",
+                                                                                                                                                                "@{flag=System.Object[]; language=ja; text=ã‚¤ã‚®ãƒªã‚¹}",
+                                                                                                                                                                "@{flag=System.Object[]; language=da; text=Storbritannien}",
+                                                                                                                                                                "@{flag=System.Object[]; language=sv; text=Storbritannien}",
+                                                                                                                                                                "@{flag=System.Object[]; language=ms; text=United Kingdom}",
+                                                                                                                                                                "@{flag=System.Object[]; language=chr; text=áŽ©áŽµáá²}",
+                                                                                                                                                                "@{flag=System.Object[]; language=id; text=Britania Raya}",
+                                                                                                                                                                "@{flag=System.Object[]; language=en; text=United Kingdom}",
+                                                                                                                                                                "@{flag=System.Object[]; language=fil; text=United Kingdom}",
+                                                                                                                                                                "@{flag=System.Object[]; language=pl; text=Wielka Brytania}",
+                                                                                                                                                                "@{flag=System.Object[]; language=iw; text=×‘×¨×™×˜× ×™×”}",
+                                                                                                                                                                "@{flag=System.Object[]; language=en; text=United Kingdoms}",
+                                                                                                                                                                "@{flag=System.Object[]; language=fa; text=Ø¨Ø±ÛŒØªØ§Ù†ÛŒØ§}",
+                                                                                                                                                                "@{flag=System.Object[]; language=uz; text=Buyuk Britaniya}",
+                                                                                                                                                                "@{flag=System.Object[]; language=am; text=áŠ¥áŠ•áŒáˆŠá‹}",
+                                                                                                                                                                "@{flag=System.Object[]; language=bs; text=Velika Britanija}",
+                                                                                                                                                                "@{flag=System.Object[]; language=cs; text=VelkÃ¡ BritÃ¡nie}",
+                                                                                                                                                                "@{flag=System.Object[]; language=zu; text=i-United Kingdom}",
+                                                                                                                                                                "@{flag=System.Object[]; language=nl; text=Verenigd Koninkrijk}",
+                                                                                                                                                                "@{flag=System.Object[]; language=vi; text=VÆ°Æ¡ng Quá»‘c Anh}",
+                                                                                                                                                                "@{flag=System.Object[]; language=lv; text=ApvienotÄ Karaliste}",
+                                                                                                                                                                "@{flag=System.Object[]; language=lt; text=JungtinÄ— KaralystÄ—}",
+                                                                                                                                                                "@{flag=System.Object[]; language=eo; text=UnuiÄinta ReÄlando}",
+                                                                                                                                                                "@{flag=System.Object[]; language=af; text=Verenigde Koninkryk}",
+                                                                                                                                                                "@{flag=System.Object[]; language=mn; text=Ð˜Ñ… Ð‘Ñ€Ð¸Ñ‚Ð°Ð½Ð¸}",
+                                                                                                                                                                "@{flag=System.Object[]; language=hu; text=EgyesÃ¼lt KirÃ¡lysÃ¡g}",
+                                                                                                                                                                "@{flag=System.Object[]; language=cs; text=SpojenÃ© krÃ¡lovstvÃ­}",
+                                                                                                                                                                "@{flag=System.Object[]; language=sl; text=ZdruÅ¾eno kraljestvo}",
+                                                                                                                                                                "@{flag=System.Object[]; language=hr; text=Ujedinjeno Kraljevstvo}",
+                                                                                                                                                                "@{flag=System.Object[]; language=az; text=BirlÉ™ÅŸmiÅŸ KrallÄ±q}",
+                                                                                                                                                                "@{flag=System.Object[]; language=sq; text=MbretÃ«ria e Bashkuar}",
+                                                                                                                                                                "@{flag=System.Object[]; language=ur; text=Ø³Ù„Ø·Ù†Øª Ù…ØªØ­Ø¯Û}",
+                                                                                                                                                                "@{flag=System.Object[]; language=kk; text=Ò°Ð»Ñ‹Ð±Ñ€Ð¸Ñ‚Ð°Ð½Ð¸Ñ}",
+                                                                                                                                                                "@{flag=System.Object[]; language=fi; text=Yhdistynyt kuningaskunta}",
+                                                                                                                                                                "@{flag=System.Object[]; language=ml; text=à´¬àµà´°à´¿à´Ÿàµà´Ÿàµ»}",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=Reino Unido; language=gl; text=Reino Unido}",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=Reino Unido; language=pt; text=Reino Unido}",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=Inggris Raya; language=id; text=Inggris Raya}",
+                                                                                                                                                                "@{flag=System.Object[]; language=ky; text=Ð£Ð»ÑƒÑƒ Ð‘Ñ€Ð¸Ñ‚Ð°Ð½Ð¸Ñ}",
+                                                                                                                                                                "@{flag=System.Object[]; language=iw; text=×”×ž×ž×œ×›×” ×”×ž××•×—×“×ª}",
+                                                                                                                                                                "@{flag=System.Object[]; language=uk; text=Ð’ÐµÐ»Ð¸ÐºÐ¾Ð±Ñ€Ð¸Ñ‚Ð°Ð½Ñ–Ñ}",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=Great Britain; language=en; text=Great Britain}",
+                                                                                                                                                                "@{flag=System.Object[]; language=ar; text=Ø§Ù„Ù…Ù…Ù„ÙƒØ© Ø§Ù„Ù…ØªØ­Ø¯Ø©}",
+                                                                                                                                                                "@{flag=System.Object[]; language=bg; text=Ð’ÐµÐ»Ð¸ÐºÐ¾Ð±Ñ€Ð¸Ñ‚Ð°Ð½Ð¸Ñ}",
+                                                                                                                                                                "@{flag=System.Object[]; language=bn; text=à¦¯à§à¦•à§à¦¤à¦°à¦¾à¦œà§à¦¯}",
+                                                                                                                                                                "@{flag=System.Object[]; language=uk; text=Ð’ÐµÐ»Ð¸ÐºÐ° Ð‘Ñ€Ð¸Ñ‚Ð°Ð½Ñ–Ñ}",
+                                                                                                                                                                "@{flag=System.Object[]; language=el; text=Î—Î½Ï‰Î¼Î­Î½Î¿ Î’Î±ÏƒÎ¯Î»ÎµÎ¹Î¿}",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=Erresuma Batua; language=eu; text=Erresuma Batua}",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=Rywvaneth Unys; language=kw; text=Rywvaneth Unys}",
+                                                                                                                                                                "@{flag=System.Object[]; language=zh; text=ï¼ˆå¤§ä¸åˆ—é¢ ï¼‰è”åˆçŽ‹å›½}",
+                                                                                                                                                                "@{flag=System.Object[]; language=sr; text=Ð’ÐµÐ»Ð¸ÐºÐ° Ð‘Ñ€Ð¸Ñ‚Ð°Ð½Ð¸Ñ˜Ð°}",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=Y Deyrnas Unedig; language=cy; text=Y Deyrnas Unedig}",
+                                                                                                                                                                "@{flag=System.Object[]; language=mk; text=ÐžÐ±ÐµÐ´Ð¸Ð½ÐµÑ‚Ð¾ ÐšÑ€Ð°Ð»ÑÑ‚Ð²Ð¾}",
+                                                                                                                                                                "@{flag=System.Object[]; language=sr; text=Ð£Ñ˜ÐµÐ´Ð¸ÑšÐµÐ½Ð¾ ÐšÑ€Ð°Ñ™ÐµÐ²ÑÑ‚Ð²Ð¾}",
+                                                                                                                                                                "@{flag=System.Object[]; language=th; text=à¸ªà¸«à¸£à¸²à¸Šà¸­à¸²à¸“à¸²à¸ˆà¸±à¸à¸£}",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=BirleÅŸik KrallÄ±k; language=tr; text=BirleÅŸik KrallÄ±k}",
+                                                                                                                                                                "@{flag=System.Object[]; language=pa; text=à¨¯à©‚à¨¨à¨¾à¨ˆà¨Ÿà¨¡ à¨•à¨¿à©°à¨—à¨¡à¨®}",
+                                                                                                                                                                "@{flag=System.Object[]; language=mr; text=à¤¯à¥à¤¨à¤¾à¤¯à¤Ÿà¥‡à¤¡ à¤•à¤¿à¤‚à¤—à¤¡à¤®}",
+                                                                                                                                                                "@{flag=System.Object[]; language=hi; text=à¤¯à¥‚à¤¨à¤¾à¤‡à¤Ÿà¥‡à¤¡ à¤•à¤¿à¤‚à¤—à¤¡à¤®}",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=an RÃ­ocht Aontaithe; language=ga; text=an RÃ­ocht Aontaithe}",
+                                                                                                                                                                "@{flag=System.Object[]; language=hy; text=Õ„Õ«Õ¡ÖÕµÕ¡Õ¬ Ô¹Õ¡Õ£Õ¡Õ¾Õ¸Ö€Õ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶}",
+                                                                                                                                                                "@{flag=System.Object[]; language=gu; text=àª¯à«àª¨àª¾àª‡àªŸà«‡àª¡ àª•àª¿àª‚àª—àª¡àª®}",
+                                                                                                                                                                "@{flag=System.Object[]; language=si; text=à¶‘à¶šà·Šà·ƒà¶­à·Š à¶»à·à¶¢à¶°à·à¶±à·’à¶º}",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=SpojenÃ© krÃ¡Ä¾ovstvo; language=sk; text=SpojenÃ© krÃ¡Ä¾ovstvo}",
+                                                                                                                                                                "@{flag=System.Object[]; language=ne; text=à¤¸à¤‚à¤¯à¥à¤•à¥à¤¤ à¤…à¤§à¤¿à¤°à¤¾à¤œà¥à¤¯}",
+                                                                                                                                                                "@{flag=System.Object[]; language=ta; text=à®à®•à¯à®•à®¿à®¯ à®°à®¾à®œà¯à®œà®¿à®¯à®®à¯}",
+                                                                                                                                                                "@{flag=System.Object[]; language=km; text=áž…áž€áŸ’ážšáž—áž–​áž¢áž„áŸ‹áž‚áŸ’áž›áŸážŸ}",
+                                                                                                                                                                "@{flag=System.Object[]; language=vi; text=VÆ°Æ¡ng quá»‘c LiÃªn hiá»‡p Anh vÃ  Báº¯c Ireland}",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=An RÃ¬oghachd Aonaichte; language=gd; text=An RÃ¬oghachd Aonaichte}",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=Vereinigtes KÃ¶nigreich; language=de; text=Vereinigtes KÃ¶nigreich}",
+                                                                                                                                                                "@{flag=System.Object[]; language=lo; text=àºªàº°àº«àº°àº¥àº²àº”àºŠàº°àº­àº°àº™àº²àºˆàº±àº}",
+                                                                                                                                                                "@{flag=System.Object[]; language=ro; text=Regatul Unit al Marii Britanii ÅŸi Irlandei de Nord}",
+                                                                                                                                                                "@{flag=System.Object[]; language=te; text=à°¯à±à°¨à±†à±–à°Ÿà±†à°¡à± à°•à°¿à°‚à°—à±à°¡à°®à±}",
+                                                                                                                                                                "@{flag=System.Object[]; language=kn; text=à²¯à³à²¨à³†à³–à²Ÿà³†à²¡à³ à²•à²¿à²‚à²—à³à²¡à²®à³}",
+                                                                                                                                                                "@{flag=System.Object[]; language=ro; text=Regatul Unit al Marii Britanii È™i al Irlandei de Nord}",
+                                                                                                                                                                "@{flag=System.Object[]; language=sl; text=ZdruÅ¾eno kraljestvo Velike Britanije in Severne Irske}",
+                                                                                                                                                                "@{flag=System.Object[]; language=my; text=á€šá€°á€”á€­á€¯á€€á€ºá€á€€á€ºá€€á€„á€ºá€¸á€’á€™á€ºá€¸}",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=Ð’ÐµÐ»Ð¸ÐºÐ¾Ð±Ñ€Ð¸Ñ‚Ð°Ð½Ð¸Ñ; language=ru; text=Ð’ÐµÐ»Ð¸ÐºÐ¾Ð±Ñ€Ð¸Ñ‚Ð°Ð½Ð¸Ñ}",
+                                                                                                                                                                "@{flag=System.Object[]; language=ka; text=áƒ’áƒáƒ”áƒ áƒ—áƒ˜áƒáƒœáƒ”áƒ‘áƒ£áƒšáƒ˜ áƒ¡áƒáƒ›áƒ”áƒ¤áƒ}",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=GroÃŸbritannien und Nordirland; language=de; text=GroÃŸbritannien und Nordirland}",
+                                                                                                                                                                "@{flag=System.Object[]; language=bg; text=ÐžÐ±ÐµÐ´Ð¸Ð½ÐµÐ½Ð¾ ÐºÑ€Ð°Ð»ÑÑ‚Ð²Ð¾ Ð’ÐµÐ»Ð¸ÐºÐ¾Ð±Ñ€Ð¸Ñ‚Ð°Ð½Ð¸Ñ Ð¸ Ð¡ÐµÐ²ÐµÑ€Ð½Ð° Ð˜Ñ€Ð»Ð°Ð½Ð´Ð¸Ñ}"
+                                                                                                                                                            ],
+                                                                                                                                            "temporary_data":  {
+
+                                                                                                                                                               },
+                                                                                                                                            "type":  "TYPE_FEATURE"
+                                                                                                                                        },
+                                                                                                                                        {
+                                                                                                                                            "feature_type":  177,
+                                                                                                                                            "feature_id":  {
+                                                                                                                                                               "fprint":  3535259506390185887,
+                                                                                                                                                               "cell_id":  5226365359312402329
+                                                                                                                                                           },
+                                                                                                                                            "parsed_name":  [
+                                                                                                                                                                "@{flag=System.Object[]; text=EH1 2PH}"
+                                                                                                                                                            ],
+                                                                                                                                            "temporary_data":  {
+
+                                                                                                                                                               },
+                                                                                                                                            "type":  "TYPE_FEATURE"
+                                                                                                                                        }
+                                                                                                                                    ],
+                                                                                                                      "template_id":  "CL144479995"
+                                                                                                                  },
+                                                                                                      "geo_coordinate":  {
+                                                                                                                             "lng_degrees":  -3.1928973,
+                                                                                                                             "lat_degrees":  55.9492973
+                                                                                                                         },
+                                                                                                      "description":  "300 Lawnmarket, Edinburgh EH1 2PH, UK",
+                                                                                                      "postal_code":  "EH1 2PH",
+                                                                                                      "version_timestamp":  1709423122301,
+                                                                                                      "time_zone":  "Europe/London"
+                                                                                                  }
+                                                                        }
+                                                      },
+                                                      {
+                                                          "owner_emails":  [
+                                                                               "mtlive4175@gmail.com"
+                                                                           ],
+                                                          "owner_create_times":  [
+                                                                                     {
+                                                                                         "value":  {
+                                                                                                       "seconds":  1726196452,
+                                                                                                       "nanos":  694648000
+                                                                                                   },
+                                                                                         "key":  "mtlive4175@gmail.com"
+                                                                                     }
+                                                                                 ],
+                                                          "structure":  {
+                                                                            "update_time":  {
+                                                                                                "seconds":  1726295209,
+                                                                                                "nanos":  283301000
+                                                                                            },
+                                                                            "create_time":  {
+                                                                                                "seconds":  1726196453,
+                                                                                                "nanos":  472183000
+                                                                                            },
+                                                                            "name":  "Home",
+                                                                            "personalized_nicknames":  [
+                                                                                                           "Home"
+                                                                                                       ],
+                                                                            "personalized_ui_settings":  {
+                                                                                                             "favorites":  {
+                                                                                                                               "category_type":  "CATEGORY_TYPE_FAVORITES"
+                                                                                                                           }
+                                                                                                         },
+                                                                            "physical_location":  {
+                                                                                                      "country_code":  "US",
+                                                                                                      "address":  {
+                                                                                                                      "component":  [
+                                                                                                                                        {
+                                                                                                                                            "parsed_name":  [
+                                                                                                                                                                "@{text=18}"
+                                                                                                                                                            ],
+                                                                                                                                            "temporary_data":  {
+
+                                                                                                                                                               },
+                                                                                                                                            "type":  "TYPE_STREET_NUMBER"
+                                                                                                                                        },
+                                                                                                                                        {
+                                                                                                                                            "feature_type":  17,
+                                                                                                                                            "feature_id":  {
+                                                                                                                                                               "fprint":  -505511831301938227,
+                                                                                                                                                               "cell_id":  -8578036484752921351
+                                                                                                                                                           },
+                                                                                                                                            "parsed_name":  [
+                                                                                                                                                                "@{flag=System.Object[]; language=ko; text=ìº”í„°ë² ë¦¬ ë“œë¼ì´ë¸Œ}",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=Canterbury Dr; language=en; text=Canterbury Drive}",
+                                                                                                                                                                "@{flag=System.Object[]; language=ky; text=ÐšÐµÐ½Ñ‚ÐµÑ€Ð±ÐµÑ€Ð¸ Ð”Ñ€Ð°Ð¹Ð²}",
+                                                                                                                                                                "@{flag=System.Object[]; language=ru; text=ÐšÐµÐ½Ñ‚ÐµÑ€Ð±ÐµÑ€Ð¸ Ð”Ñ€Ð°Ð¹Ð²}",
+                                                                                                                                                                "@{flag=System.Object[]; language=am; text=áŠ«áŠ•á‰°áˆ­á‰¤áˆª á‹µáˆ«á‹­á‰­}",
+                                                                                                                                                                "@{flag=System.Object[]; language=ja; text=ã‚«ãƒ³ã‚¿ãƒ¼ãƒ™ãƒªãƒ¼ãƒ»ãƒ‰ãƒ©ã‚¤ãƒ–}"
+                                                                                                                                                            ],
+                                                                                                                                            "temporary_data":  {
+
+                                                                                                                                                               },
+                                                                                                                                            "type":  "TYPE_FEATURE"
+                                                                                                                                        },
+                                                                                                                                        {
+                                                                                                                                            "feature_type":  37,
+                                                                                                                                            "feature_id":  {
+                                                                                                                                                               "fprint":  4962029225264900607,
+                                                                                                                                                               "cell_id":  -8578036580128659257
+                                                                                                                                                           },
+                                                                                                                                            "parsed_name":  [
+                                                                                                                                                                "@{flag=System.Object[]; language=ca; text=Grantville}",
+                                                                                                                                                                "@{flag=System.Object[]; language=es; text=Grantville}",
+                                                                                                                                                                "@{flag=System.Object[]; language=eu; text=Grantville}",
+                                                                                                                                                                "@{flag=System.Object[]; language=fr; text=Grantville}",
+                                                                                                                                                                "@{flag=System.Object[]; language=it; text=Grantville}",
+                                                                                                                                                                "@{flag=System.Object[]; language=nl; text=Grantville}",
+                                                                                                                                                                "@{flag=System.Object[]; language=pl; text=Grantville}",
+                                                                                                                                                                "@{flag=System.Object[]; language=pt; text=Grantville}",
+                                                                                                                                                                "@{flag=System.Object[]; language=de; text=Grantville}",
+                                                                                                                                                                "@{flag=System.Object[]; language=uz; text=Grantville}",
+                                                                                                                                                                "@{flag=System.Object[]; language=ko; text=ê·¸ëžœíŠ¸ë¹Œ}",
+                                                                                                                                                                "@{flag=System.Object[]; language=fa; text=Ú¯Ø±Ù†Øª ÙˆÛŒÙ„}",
+                                                                                                                                                                "@{flag=System.Object[]; language=sr; text=Ð“Ñ€Ð°Ð½Ñ‚Ð²Ð¸Ð»}",
+                                                                                                                                                                "@{flag=System.Object[]; language=ar; text=ØºØ±Ø§Ù†ØªÙÙŠÙ„}",
+                                                                                                                                                                "@{flag=System.Object[]; language=ur; text=Ú¯Ø±Ø§Ù†Ù¹ ÙˆÛŒÙ„}",
+                                                                                                                                                                "@{flag=System.Object[]; language=ky; text=Ð“Ñ€Ð°Ð½Ñ‚Ð²Ð¸Ð»Ð»}",
+                                                                                                                                                                "@{flag=System.Object[]; language=ru; text=Ð“Ñ€Ð°Ð½Ñ‚Ð²Ð¸Ð»Ð»}",
+                                                                                                                                                                "@{flag=System.Object[]; language=ht; text=Grantville, Georgie}",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=Grantville; language=en; text=Grantville}",
+                                                                                                                                                                "@{flag=System.Object[]; language=ja; text=ã‚°ãƒ©ãƒ³ãƒˆãƒ´ã‚£ãƒ«}"
+                                                                                                                                                            ],
+                                                                                                                                            "temporary_data":  {
+
+                                                                                                                                                               },
+                                                                                                                                            "type":  "TYPE_FEATURE"
+                                                                                                                                        },
+                                                                                                                                        {
+                                                                                                                                            "feature_type":  545,
+                                                                                                                                            "feature_id":  {
+                                                                                                                                                               "fprint":  7387236069664559335,
+                                                                                                                                                               "cell_id":  -8579015594934828713
+                                                                                                                                                           },
+                                                                                                                                            "parsed_name":  [
+                                                                                                                                                                "@{flag=System.Object[]; language=pt; text=GA}",
+                                                                                                                                                                "@{flag=System.Object[]; language=en; text=US-GA}",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=GA; language=en; text=GA}",
+                                                                                                                                                                "@{flag=System.Object[]; language=haw; text=Keokia}",
+                                                                                                                                                                "@{flag=System.Object[]; language=az; text=Corciya}",
+                                                                                                                                                                "@{flag=System.Object[]; language=ht; text=DjÃ²dji}",
+                                                                                                                                                                "@{flag=System.Object[]; language=af; text=Georgia}",
+                                                                                                                                                                "@{flag=System.Object[]; language=bs; text=Georgia}",
+                                                                                                                                                                "@{flag=System.Object[]; language=co; text=Georgia}",
+                                                                                                                                                                "@{flag=System.Object[]; language=cy; text=Georgia}",
+                                                                                                                                                                "@{flag=System.Object[]; language=de; text=Georgia}",
+                                                                                                                                                                "@{flag=System.Object[]; language=es; text=Georgia}",
+                                                                                                                                                                "@{flag=System.Object[]; language=et; text=Georgia}",
+                                                                                                                                                                "@{flag=System.Object[]; language=eu; text=Georgia}",
+                                                                                                                                                                "@{flag=System.Object[]; language=fi; text=Georgia}",
+                                                                                                                                                                "@{flag=System.Object[]; language=fy; text=Georgia}",
+                                                                                                                                                                "@{flag=System.Object[]; language=ga; text=Georgia}",
+                                                                                                                                                                "@{flag=System.Object[]; language=hu; text=Georgia}",
+                                                                                                                                                                "@{flag=System.Object[]; language=id; text=Georgia}",
+                                                                                                                                                                "@{flag=System.Object[]; language=it; text=Georgia}",
+                                                                                                                                                                "@{flag=System.Object[]; language=ku; text=Georgia}",
+                                                                                                                                                                "@{flag=System.Object[]; language=la; text=Georgia}",
+                                                                                                                                                                "@{flag=System.Object[]; language=lb; text=Georgia}",
+                                                                                                                                                                "@{flag=System.Object[]; language=mg; text=Georgia}",
+                                                                                                                                                                "@{flag=System.Object[]; language=mi; text=Georgia}",
+                                                                                                                                                                "@{flag=System.Object[]; language=ms; text=Georgia}",
+                                                                                                                                                                "@{flag=System.Object[]; language=no; text=Georgia}",
+                                                                                                                                                                "@{flag=System.Object[]; language=ro; text=Georgia}",
+                                                                                                                                                                "@{flag=System.Object[]; language=sk; text=Georgia}",
+                                                                                                                                                                "@{flag=System.Object[]; language=sq; text=Georgia}",
+                                                                                                                                                                "@{flag=System.Object[]; language=sv; text=Georgia}",
+                                                                                                                                                                "@{flag=System.Object[]; language=sw; text=Georgia}",
+                                                                                                                                                                "@{flag=System.Object[]; language=tr; text=Georgia}",
+                                                                                                                                                                "@{flag=System.Object[]; language=vi; text=Georgia}",
+                                                                                                                                                                "@{flag=System.Object[]; language=eo; text=Georgio}",
+                                                                                                                                                                "@{flag=System.Object[]; language=uz; text=Jorjiya}",
+                                                                                                                                                                "@{flag=System.Object[]; language=sm; text=Siaosia}",
+                                                                                                                                                                "@{flag=System.Object[]; language=gl; text=Xeorxia}",
+                                                                                                                                                                "@{flag=System.Object[]; language=ceb; text=Georgia}",
+                                                                                                                                                                "@{flag=System.Object[]; language=fil; text=Georgia}",
+                                                                                                                                                                "@{flag=System.Object[]; language=is; text=GeorgÃ­a}",
+                                                                                                                                                                "@{flag=System.Object[]; language=ca; text=GeÃ²rgia}",
+                                                                                                                                                                "@{flag=System.Object[]; language=ln; text=GÃ©orgie}",
+                                                                                                                                                                "@{flag=System.Object[]; language=ig; text=Jorjiáº¡}",
+                                                                                                                                                                "@{flag=System.Object[]; language=jv; text=Georgia}",
+                                                                                                                                                                "@{flag=System.Object[]; language=gd; text=SeÃ²irsia}",
+                                                                                                                                                                "@{flag=System.Object[]; language=de-CH; text=Georgia}",
+                                                                                                                                                                "@{flag=System.Object[]; language=pt; text=GeÃ³rgia}",
+                                                                                                                                                                "@{flag=System.Object[]; language=es-419; text=Georgia}",
+                                                                                                                                                                "@{flag=System.Object[]; language=pt-PT; text=GeÃ³rgia}",
+                                                                                                                                                                "@{flag=System.Object[]; language=ko; text=ì¡°ì§€ì•„}",
+                                                                                                                                                                "@{flag=System.Object[]; language=lt; text=DÅ¾ordÅ¾ija}",
+                                                                                                                                                                "@{flag=System.Object[]; language=sr-Latn; text=Georgia}",
+                                                                                                                                                                "@{flag=System.Object[]; language=zh-TW; text=ä½æ²»äºž}",
+                                                                                                                                                                "@{flag=System.Object[]; language=mn; text=Ð–Ð¾Ñ€Ð¶Ð¸Ð°}",
+                                                                                                                                                                "@{flag=System.Object[]; language=tg; text=Ò¶Ð¾Ñ€Ò·Ð¸Ñ}",
+                                                                                                                                                                "@{flag=System.Object[]; language=hy; text=Õ‹Õ¸Ö€Õ»Õ«Õ¡}",
+                                                                                                                                                                "@{flag=System.Object[]; language=ur; text=Ø¬Ø§Ø±Ø¬ÛŒØ§}",
+                                                                                                                                                                "@{flag=System.Object[]; language=ar; text=Ø¬ÙˆØ±Ø¬ÙŠØ§}",
+                                                                                                                                                                "@{flag=System.Object[]; language=fa; text=Ø¬ÙˆØ±Ø¬ÛŒØ§}",
+                                                                                                                                                                "@{flag=System.Object[]; language=am; text=áŒ†áˆ­áŒ‚á‹«}",
+                                                                                                                                                                "@{flag=System.Object[]; language=zh; text=ä½æ²»äºšå·ž}",
+                                                                                                                                                                "@{flag=System.Object[]; language=zh; text=æ ¼é²å‰äºš}",
+                                                                                                                                                                "@{flag=System.Object[]; language=ckb; text=Ø¬Û†Ø±Ø¬ÛŒØ§}",
+                                                                                                                                                                "@{flag=System.Object[]; language=ko; text=ì¡°ì§€ì•„ ì£¼}",
+                                                                                                                                                                "@{flag=System.Object[]; language=zh-TW; text=å–¬æ²»äºž}",
+                                                                                                                                                                "@{flag=System.Object[]; language=zh; text=ä¹”æ²»äºšå·ž}",
+                                                                                                                                                                "@{flag=System.Object[]; language=mk; text=ÐÐ¾Ñ€ÑŸÐ¸Ñ˜Ð°}",
+                                                                                                                                                                "@{flag=System.Object[]; language=sr; text=Ð“Ñ€ÑƒÐ·Ð¸Ñ˜Ð°}",
+                                                                                                                                                                "@{flag=System.Object[]; language=iw; text=×’××•×¨×’×™×”}",
+                                                                                                                                                                "@{flag=System.Object[]; language=ja; text=ã‚¸ãƒ§ãƒ¼ã‚¸ã‚¢}",
+                                                                                                                                                                "@{flag=System.Object[]; language=el; text=Î“ÎµÏ‰ÏÎ³Î¯Î±}",
+                                                                                                                                                                "@{flag=System.Object[]; language=iw; text=×’\u0027×•×¨×’\u0027×™×”}",
+                                                                                                                                                                "@{flag=System.Object[]; language=ug; text=Giorgiye Shitati}",
+                                                                                                                                                                "@{flag=System.Object[]; language=el; text=Î¤Î¶ÏŒÏÏ„Î¶Î¹Î±}",
+                                                                                                                                                                "@{flag=System.Object[]; language=ba; text=Ð”Ð¶Ð¾Ñ€Ð´Ð¶Ð¸Ñ}",
+                                                                                                                                                                "@{flag=System.Object[]; language=bg; text=Ð”Ð¶Ð¾Ñ€Ð´Ð¶Ð¸Ñ}",
+                                                                                                                                                                "@{flag=System.Object[]; language=kk; text=Ð”Ð¶Ð¾Ñ€Ð´Ð¶Ð¸Ñ}",
+                                                                                                                                                                "@{flag=System.Object[]; language=tt; text=Ð”Ð¶Ð¾Ñ€Ð´Ð¶Ð¸Ñ}",
+                                                                                                                                                                "@{flag=System.Object[]; language=uk; text=Ð”Ð¶Ð¾Ñ€Ð´Ð¶Ñ–Ñ}",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=Georgia; language=en; text=Georgia}",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=Georgia; language=da; text=Georgia}",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=Georgia; language=hr; text=Georgia}",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=Georgia; language=nl; text=Georgia}",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=Georgia; language=pl; text=Georgia}",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=Georgia; language=sl; text=Georgia}",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=Georgie; language=cs; text=Georgie}",
+                                                                                                                                                                "@{flag=System.Object[]; language=ru; text=Ð”Ð¶Ð¾Ñ€Ð´Ð¶Ð¸Ñ}",
+                                                                                                                                                                "@{flag=System.Object[]; language=yi; text=×“×–×©××¨×“×–×™×¢}",
+                                                                                                                                                                "@{flag=System.Object[]; language=pa; text=à¨œà¨¾à¨°à¨œà©€à¨†}",
+                                                                                                                                                                "@{flag=System.Object[]; language=ml; text=à´œàµ‹àµ¼à´œà´¿à´¯}",
+                                                                                                                                                                "@{flag=System.Object[]; language=ka; text=áƒ¯áƒáƒ áƒ¯áƒ˜áƒ}",
+                                                                                                                                                                "@{flag=System.Object[]; language=ky; text=Ð”Ð¶Ð¾Ñ€Ð´Ð¶Ð¸Ñ}",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=GÃ©orgie; language=fr; text=GÃ©orgie}",
+                                                                                                                                                                "@{flag=System.Object[]; language=yo; text=ÃŒpÃ­nláº¹Ì€ Georgia}",
+                                                                                                                                                                "@{flag=System.Object[]; language=ne; text=à¤œà¤°à¥à¤œà¤¿à¤¯à¤¾}",
+                                                                                                                                                                "@{flag=System.Object[]; language=kn; text=à²œà²¾à²°à³à²œà²¿à²¯}",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=å–¬æ²»äºž; language=zh-HK; text=å–¬æ²»äºž}",
+                                                                                                                                                                "@{flag=System.Object[]; language=be-TARASK; text=Ð”Ð¶Ð¾Ñ€Ð´Ð¶Ñ‹Ñ}",
+                                                                                                                                                                "@{flag=System.Object[]; language=hi; text=à¤œà¥‰à¤°à¥à¤œà¤¿à¤¯à¤¾}",
+                                                                                                                                                                "@{flag=System.Object[]; language=mr; text=à¤œà¥‰à¤°à¥à¤œà¤¿à¤¯à¤¾}",
+                                                                                                                                                                "@{flag=System.Object[]; language=bn; text=à¦œà¦°à§à¦œà¦¿à¦¯à¦¼à¦¾}",
+                                                                                                                                                                "@{flag=System.Object[]; language=ta; text=à®œà¯‹à®°à¯à®œà®¿à®¯à®¾}",
+                                                                                                                                                                "@{flag=System.Object[]; language=te; text=à°œà°¾à°°à±à°œà°¿à°¯à°¾}",
+                                                                                                                                                                "@{flag=System.Object[]; language=be; text=Ð¨Ñ‚Ð°Ñ‚ Ð”Ð¶Ð¾Ñ€Ð´Ð¶Ñ‹Ñ}",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=DÅ¾ordÅ¾ija; language=lv; text=DÅ¾ordÅ¾ija}",
+                                                                                                                                                                "@{flag=System.Object[]; language=arz; text=ÙˆÙ„Ø§ÙŠØ© Ø¬ÙˆØ±Ø¬ÙŠØ§}",
+                                                                                                                                                                "@{flag=System.Object[]; language=si; text=à¶¢à·à¶»à·Šà¶¢à·’à¶ºà·à·€}",
+                                                                                                                                                                "@{flag=System.Object[]; language=lah; text=Ø¬Ø§Ø±Ø¬ÛŒØ§ØŒ Ø§Ù…Ø±ÛŒÚ©Û}",
+                                                                                                                                                                "@{flag=System.Object[]; language=bo; text=à½ à½‡à½¼à½¢à¼‹à½‡à½²à¼‹à½¡à¼}",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=å–¬æ²»äºžå·ž; language=zh-TW; text=å–¬æ²»äºžå·ž}",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=ÐÐ¾Ñ€ÑŸÐ¸Ñ˜Ð°; language=sr; text=ÐÐ¾Ñ€ÑŸÐ¸Ñ˜Ð°}",
+                                                                                                                                                                "@{flag=System.Object[]; language=gu; text=àªœà«àª¯à«‹àª°à«àªœàª¿àª¯àª¾}",
+                                                                                                                                                                "@{flag=System.Object[]; language=th; text=à¸£à¸±à¸à¸ˆà¸­à¸£à¹Œà¹€à¸ˆà¸µà¸¢}",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=ã‚¸ãƒ§ãƒ¼ã‚¸ã‚¢å·ž; language=ja; text=ã‚¸ãƒ§ãƒ¼ã‚¸ã‚¢å·ž}",
+                                                                                                                                                                "@{flag=System.Object[]; language=my; text=á€‚á€»á€±á€¬á€ºá€‚á€»á€®á€šá€¬á€•á€¼á€Šá€ºá€”á€šá€º}"
+                                                                                                                                                            ],
+                                                                                                                                            "temporary_data":  {
+
+                                                                                                                                                               },
+                                                                                                                                            "type":  "TYPE_FEATURE"
+                                                                                                                                        },
+                                                                                                                                        {
+                                                                                                                                            "feature_type":  33,
+                                                                                                                                            "feature_id":  {
+                                                                                                                                                               "fprint":  2034423694542944066,
+                                                                                                                                                               "cell_id":  6118902626105046539
+                                                                                                                                                           },
+                                                                                                                                            "parsed_name":  [
+                                                                                                                                                                "@{flag=System.Object[]; text=US}",
+                                                                                                                                                                "@{flag=System.Object[]; language=da; text=USA}",
+                                                                                                                                                                "@{flag=System.Object[]; language=no; text=USA}",
+                                                                                                                                                                "@{flag=System.Object[]; language=sv; text=USA}",
+                                                                                                                                                                "@{flag=System.Object[]; language=gsw; text=USA}",
+                                                                                                                                                                "@{flag=System.Object[]; language=pt; text=EUA}",
+                                                                                                                                                                "@{flag=System.Object[]; language=de; text=USA}",
+                                                                                                                                                                "@{flag=System.Object[]; language=eo; text=Usono}",
+                                                                                                                                                                "@{flag=System.Object[]; language=ko; text=ë¯¸êµ­}",
+                                                                                                                                                                "@{flag=System.Object[]; language=ja; text=ç±³å›½}",
+                                                                                                                                                                "@{flag=System.Object[]; language=zh; text=ç¾Žå›½}",
+                                                                                                                                                                "@{flag=System.Object[]; language=vi; text=Hoa Ká»³}",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=USA; language=en; text=USA}",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=USA; language=tn; text=USA}",
+                                                                                                                                                                "@{flag=System.Object[]; language=ru; text=Ð¡Ð¨Ð}",
+                                                                                                                                                                "@{flag=System.Object[]; language=sw; text=Marekani}",
+                                                                                                                                                                "@{flag=System.Object[]; language=zh-TW; text=ç¾Žåœ‹}",
+                                                                                                                                                                "@{flag=System.Object[]; language=en; text=America}",
+                                                                                                                                                                "@{flag=System.Object[]; language=ln; text=Ã‰tats-Unis}",
+                                                                                                                                                                "@{flag=System.Object[]; language=de; text=Amerika}",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=U.S.; language=en; text=U.S.}",
+                                                                                                                                                                "@{flag=System.Object[]; language=is; text=BandarÃ­kin}",
+                                                                                                                                                                "@{flag=System.Object[]; language=it; text=Stati Uniti}",
+                                                                                                                                                                "@{flag=System.Object[]; language=fi; text=Yhdysvallat}",
+                                                                                                                                                                "@{flag=System.Object[]; language=fr; text=Ã‰tats-Unis}",
+                                                                                                                                                                "@{flag=System.Object[]; language=fil; text=Estados Unidos}",
+                                                                                                                                                                "@{flag=System.Object[]; language=id; text=Amerika Serikat}",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=Amirka; language=ha; text=Amirka}",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=ÐÐšÐ¨; language=tt; text=ÐÐšÐ¨}",
+                                                                                                                                                                "@{flag=System.Object[]; language=es; text=Estados Unidos}",
+                                                                                                                                                                "@{flag=System.Object[]; language=pt; text=Estados Unidos}",
+                                                                                                                                                                "@{flag=System.Object[]; language=ms; text=Amerika Syarikat}",
+                                                                                                                                                                "@{flag=System.Object[]; language=sk; text=SpojenÃ© Å¡tÃ¡ty}",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=U.S.A.; language=en; text=U.S.A.}",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=ç¾Žåœ‹; language=yue; text=ç¾Žåœ‹}",
+                                                                                                                                                                "@{flag=System.Object[]; language=zu; text=i-United States}",
+                                                                                                                                                                "@{flag=System.Object[]; language=pl; text=Stany Zjednoczone}",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=Amerika; language=sn; text=Amerika}",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=EE. UU.; language=es; text=EE. UU.}",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=Etazini; language=ht; text=Etazini}",
+                                                                                                                                                                "@{flag=System.Object[]; language=nl; text=Verenigde Staten}",
+                                                                                                                                                                "@{flag=System.Object[]; language=hr; text=Sjedinjene DrÅ¾ave}",
+                                                                                                                                                                "@{flag=System.Object[]; language=de; text=Vereinigte Staaten}",
+                                                                                                                                                                "@{flag=System.Object[]; language=zh; text=ç¾Žåˆ©åšåˆä¼—å›½}",
+                                                                                                                                                                "@{flag=System.Object[]; language=tr; text=BirleÅŸik Devletler}",
+                                                                                                                                                                "@{flag=System.Object[]; language=de; text=Vereinigten Staaten}",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=AmÉ›rika; language=ak; text=AmÉ›rika}",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=Etazonia; language=mg; text=Etazonia}",
+                                                                                                                                                                "@{flag=System.Object[]; language=hu; text=EgyesÃ¼lt Ãllamok}",
+                                                                                                                                                                "@{flag=System.Object[]; language=et; text=Ameerika Ãœhendriigid}",
+                                                                                                                                                                "@{flag=System.Object[]; language=it; text=Stati Uniti d\u0027America}",
+                                                                                                                                                                "@{flag=System.Object[]; language=iw; text=××¨×¦×•×ª ×”×‘×¨×™×ª}",
+                                                                                                                                                                "@{flag=System.Object[]; language=hi; text=à¤…à¤®à¥‡à¤°à¤¿à¤•à¤¾}",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=××¨×”\"×‘; language=iw; text=××¨×”\"×‘}",
+                                                                                                                                                                "@{flag=System.Object[]; language=lt; text=JungtinÄ—s Valstijos}",
+                                                                                                                                                                "@{flag=System.Object[]; language=lo; text=àºªàº°àº«àº°àº¥àº±àº”}",
+                                                                                                                                                                "@{flag=System.Object[]; language=ja; text=ã‚¢ãƒ¡ãƒªã‚«åˆè¡†å›½}",
+                                                                                                                                                                "@{flag=System.Object[]; language=ca; text=Estats Units d\u0027AmÃ¨rica}",
+                                                                                                                                                                "@{flag=System.Object[]; language=fr; text=Ã‰tats-Unis d\u0027AmÃ©rique}",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=Maraykanka; language=so; text=Maraykanka}",
+                                                                                                                                                                "@{flag=System.Object[]; language=ml; text=à´…à´®àµ‡à´°à´¿à´•àµà´•}",
+                                                                                                                                                                "@{flag=System.Object[]; language=cs; text=SpojenÃ© stÃ¡ty americkÃ©}",
+                                                                                                                                                                "@{flag=System.Object[]; language=sl; text=ZdruÅ¾ene drÅ¾ave Amerike}",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=Stati Uniti; language=co; text=Stati Uniti}",
+                                                                                                                                                                "@{flag=System.Object[]; language=es; text=Estados Unidos de AmÃ©rica}",
+                                                                                                                                                                "@{flag=System.Object[]; language=ro; text=Statele Unite ale Americii}",
+                                                                                                                                                                "@{flag=System.Object[]; language=hu; text=Amerikai EgyesÃ¼lt Ãllamok}",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=áŠ áˆœáˆªáŠ«; language=ti; text=áŠ áˆœáˆªáŠ«}",
+                                                                                                                                                                "@{flag=System.Object[]; language=sk; text=SpojenÃ© Å¡tÃ¡ty americkÃ©}",
+                                                                                                                                                                "@{flag=System.Object[]; language=lv; text=Amerikas SavienotÄs Valstis}",
+                                                                                                                                                                "@{flag=System.Object[]; language=nl; text=Verenigde Staten van Amerika}",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=United States; language=en; text=United States}",
+                                                                                                                                                                "@{flag=System.Object[]; language=uz; text=Amerika Qo‘shma Shtatlari}",
+                                                                                                                                                                "@{flag=System.Object[]; language=af; text=Verenigde State van Amerika}",
+                                                                                                                                                                "@{flag=System.Object[]; language=bg; text=Ð¡ÑŠÐµÐ´Ð¸Ð½ÐµÐ½Ð¸ Ñ‰Ð°Ñ‚Ð¸}",
+                                                                                                                                                                "@{flag=System.Object[]; language=lt; text=JungtinÄ—s Amerikos Valstijos}",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=Estatu Batuak; language=eu; text=Estatu Batuak}",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=United States; language=ny; text=United States}",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=United States; language=st; text=United States}",
+                                                                                                                                                                "@{flag=System.Object[]; language=tr; text=Amerika BirleÅŸik Devletleri}",
+                                                                                                                                                                "@{flag=System.Object[]; language=bs; text=Sjedinjene AmeriÄke DrÅ¾ave}",
+                                                                                                                                                                "@{flag=System.Object[]; language=hr; text=Sjedinjene AmeriÄke DrÅ¾ave}",
+                                                                                                                                                                "@{flag=System.Object[]; language=pa; text=à¨¸à©°à¨¯à©à¨•à¨¤ à¨°à¨¾à¨œ}",
+                                                                                                                                                                "@{flag=System.Object[]; language=am; text=á‹©áŠ“á‹­á‰µá‹µ áˆµá‰´á‰µáˆµ}",
+                                                                                                                                                                "@{flag=System.Object[]; language=ur; text=Ø±ÛŒØ§Ø³ØªÛØ§Ø¦Û’ Ù…ØªØ­Ø¯Û}",
+                                                                                                                                                                "@{flag=System.Object[]; language=de; text=Vereinigten Staaten von Amerika}",
+                                                                                                                                                                "@{flag=System.Object[]; language=ar; text=Ø§Ù„ÙˆÙ„Ø§ÙŠØ§Øª Ø§Ù„Ù…ØªØ­Ø¯Ø©}",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=l-Istati Uniti; language=mt; text=l-Istati Uniti}",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=Estados Unidos; language=ceb; text=Estados Unidos}",
+                                                                                                                                                                "@{flag=System.Object[]; language=az; text=Amerika BirlÉ™ÅŸmiÅŸ ÅžtatlarÄ±}",
+                                                                                                                                                                "@{flag=System.Object[]; language=sr; text=Ð¡Ñ˜ÐµÐ´Ð¸ÑšÐµÐ½Ðµ Ð”Ñ€Ð¶Ð°Ð²Ðµ}",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=Estados Unidos; language=pt-PT; text=Estados Unidos}",
+                                                                                                                                                                "@{flag=System.Object[]; language=sq; text=Shtetet e Bashkuara tÃ« AmerikÃ«s}",
+                                                                                                                                                                "@{flag=System.Object[]; language=hy; text=Õ„Õ«Õ¡ÖÕµÕ¡Õ¬ Õ†Õ¡Õ°Õ¡Õ¶Õ£Õ¶Õ¥Ö€}",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=AmÃ©rika Sarikat; language=su; text=AmÃ©rika Sarikat}",
+                                                                                                                                                                "@{flag=System.Object[]; language=si; text=à¶‘à¶šà·Šà·ƒà¶­à·Š à¶¢à¶±à¶´à¶¯à¶º}",
+                                                                                                                                                                "@{flag=System.Object[]; language=fa; text=Ø§ÛŒØ§Ù„Ø§Øª Ù…ØªØ­Ø¯Ù‡ Ø¢Ù…Ø±ÛŒÚ©Ø§}",
+                                                                                                                                                                "@{flag=System.Object[]; language=th; text=à¸ªà¸«à¸£à¸±à¸à¸­à¹€à¸¡à¸£à¸´à¸à¸²}",
+                                                                                                                                                                "@{flag=System.Object[]; language=el; text=Î—Î½Ï‰Î¼Î­Î½ÎµÏ‚ Î Î¿Î»Î¹Ï„ÎµÎ¯ÎµÏ‚}",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=AmÃ©rika SarÃ©kat; language=jv; text=AmÃ©rika SarÃ©kat}",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=Ferienigde Staten; language=fy; text=Ferienigde Staten}",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=Hononga o Amerika; language=mi; text=Hononga o Amerika}",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=Mba United States; language=ig; text=Mba United States}",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=Yr Unol Daleithiau; language=cy; text=Yr Unol Daleithiau}",
+                                                                                                                                                                "@{flag=System.Object[]; language=km; text=ážŸáž ážšážŠáŸ’áž‹áž¢áž¶áž˜áŸážšáž·áž€}",
+                                                                                                                                                                "@{flag=System.Object[]; language=mn; text=ÐÐ¼ÐµÑ€Ð¸ÐºÐ¸Ð¹Ð½ ÐÑÐ³Ð´ÑÑÐ½ Ð£Ð»Ñ}",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=Vereinigte Staaten; language=de-AT; text=Vereinigte Staaten}",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=Vereinigte Staaten; language=de-CH; text=Vereinigte Staaten}",
+                                                                                                                                                                "@{flag=System.Object[]; language=mr; text=à¤¸à¤‚à¤¯à¥à¤•à¥à¤¤ à¤°à¤¾à¤·à¥à¤Ÿà¥à¤°}",
+                                                                                                                                                                "@{flag=System.Object[]; language=chr; text=áŒáŠ áŽ¢á³áŽ¾áŽµáá”á… ááŽ¦ášáŽ©}",
+                                                                                                                                                                "@{flag=System.Object[]; language=ky; text=ÐÐ¼ÐµÑ€Ð¸ÐºÐ° ÐšÐ¾ÑˆÐ¼Ð¾ Ð¨Ñ‚Ð°Ñ‚Ñ‚Ð°Ñ€Ñ‹}",
+                                                                                                                                                                "@{flag=System.Object[]; language=uk; text=Ð¡Ð¿Ð¾Ð»ÑƒÑ‡ÐµÐ½Ñ– Ð¨Ñ‚Ð°Ñ‚Ð¸ ÐÐ¼ÐµÑ€Ð¸ÐºÐ¸}",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=Sjedinjene DrÅ¾ave; language=sr-Latn; text=Sjedinjene DrÅ¾ave}",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=IYunayithedi Steyitsi; language=xh; text=IYunayithedi Steyitsi}",
+                                                                                                                                                                "@{flag=System.Object[]; language=kk; text=ÐÐ¼ÐµÑ€Ð¸ÐºÐ° ÒšÒ±Ñ€Ð°Ð¼Ð° Ð¨Ñ‚Ð°Ñ‚Ñ‚Ð°Ñ€Ñ‹}",
+                                                                                                                                                                "@{flag=System.Object[]; language=kn; text=à²¯à³à²¨à³†à³–à²Ÿà³†à²¡à³ à²°à²¾à²œà³à²¯à²¦}",
+                                                                                                                                                                "@{flag=System.Object[]; language=my; text=á€šá€°á€”á€­á€¯á€€á€ºá€á€€á€ºá€…á€á€­á€á€º}",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=Na StÃ itean Aonaichte; language=gd; text=Na StÃ itean Aonaichte}",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=ã‚¢ãƒ¡ãƒªã‚«,åˆè¡†å›½; language=ja; text=ã‚¢ãƒ¡ãƒªã‚«,åˆè¡†å›½}",
+                                                                                                                                                                "@{flag=System.Object[]; language=ru; text=Ð¡Ð¾ÐµÐ´Ð¸Ð½Ñ‘Ð½Ð½Ñ‹Ðµ Ð¨Ñ‚Ð°Ñ‚Ñ‹ ÐÐ¼ÐµÑ€Ð¸ÐºÐ¸}",
+                                                                                                                                                                "@{flag=System.Object[]; language=sr; text=Ð¡Ñ˜ÐµÐ´Ð¸ÑšÐµÐ½Ðµ ÐÐ¼ÐµÑ€Ð¸Ñ‡ÐºÐµ Ð”Ñ€Ð¶Ð°Ð²Ðµ}",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=Ê»Amelika Hui PÅ« Ê»Ia; language=haw; text=Ê»Amelika Hui PÅ« Ê»Ia}",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=United States of America; language=en; text=United States of America}",
+                                                                                                                                                                "@{flag=System.Object[]; language=ta; text=à®à®•à¯à®•à®¿à®¯ à®®à®¾à®¨à®¿à®²à®™à¯à®•à®³à¯}",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=Ù…ØªØ­Ø¯Ù‡ Ø¢ÙŠØ§Ù„Ø§Øª; language=ps; text=Ù…ØªØ­Ø¯Ù‡ Ø¢ÙŠØ§Ù„Ø§Øª}",
+                                                                                                                                                                "@{flag=System.Object[]; language=ru; text=Ð¡Ð¾ÐµÐ´Ð¸Ð½ÐµÐ½Ð½Ñ‹Ðµ Ð¨Ñ‚Ð°Ñ‚Ñ‹ ÐÐ¼ÐµÑ€Ð¸ÐºÐ¸}",
+                                                                                                                                                                "@{flag=System.Object[]; language=bg; text=Ð¡ÑŠÐµÐ´Ð¸Ð½ÐµÐ½Ð¸ Ð°Ð¼ÐµÑ€Ð¸ÐºÐ°Ð½ÑÐºÐ¸ Ñ‰Ð°Ñ‚Ð¸}",
+                                                                                                                                                                "@{flag=System.Object[]; language=hi; text=à¤¯à¥‚à¤¨à¤¾à¤‡à¤Ÿà¥‡à¤¡ à¤¸à¥à¤Ÿà¥‡à¤Ÿà¥‍à¤¸}",
+                                                                                                                                                                "@{flag=System.Object[]; language=kn; text=à²¯à³à²¨à³ˆà²Ÿà³†à²¡à³ à²¸à³à²Ÿà³‡à²Ÿà³à²¸à³}",
+                                                                                                                                                                "@{flag=System.Object[]; language=el; text=Î—Î½Ï‰Î¼Î­Î½ÎµÏ‚ Î Î¿Î»Î¹Ï„ÎµÎ¯ÎµÏ‚ Î‘Î¼ÎµÏÎ¹ÎºÎ®Ï‚}",
+                                                                                                                                                                "@{flag=System.Object[]; language=te; text=à°¯à±à°¨à±†à±–à°Ÿà±†à°¡à± à°¸à±à°Ÿà±‡à°Ÿà±à°¸à±}",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=Estados Unidos de AmÃ©rica; language=gl; text=Estados Unidos de AmÃ©rica}",
+                                                                                                                                                                "@{flag=System.Object[]; language=mk; text=Ð¡Ð¾ÐµÐ´Ð¸Ð½ÐµÑ‚Ð¸ ÐÐ¼ÐµÑ€Ð¸ÐºÐ°Ð½ÑÐºÐ¸ Ð”Ñ€Ð¶Ð°Ð²Ð¸}",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=OrÃ­láº¹Ì€-Ã¨dÃ¨ Amáº¹rikÃ ; language=yo; text=OrÃ­láº¹Ì€-Ã¨dÃ¨ Amáº¹rikÃ }",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=StÃ¡it Aontaithe MheiriceÃ¡; language=ga; text=StÃ¡it Aontaithe MheiriceÃ¡}",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=Ð—Ð»ÑƒÑ‡Ð°Ð½Ñ‹Ñ Ð¨Ñ‚Ð°Ñ‚Ñ‹; language=be; text=Ð—Ð»ÑƒÑ‡Ð°Ð½Ñ‹Ñ Ð¨Ñ‚Ð°Ñ‚Ñ‹}",
+                                                                                                                                                                "@{flag=System.Object[]; language=gu; text=àª¸àª‚àª¯à«àª•àª¤ àª°àª¾àªœà«àª¯ àª…àª®à«‡àª°àª¿àª•àª¾}",
+                                                                                                                                                                "@{flag=System.Object[]; language=bn; text=à¦®à¦¾à¦°à§à¦•à¦¿à¦¨ à¦¯à§à¦•à§à¦¤à¦°à¦¾à¦·à§à¦Ÿà§à¦°}",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=Amerika QuÅŸma ÅžtatlarÄ±; language=tt-Latn; text=Amerika QuÅŸma ÅžtatlarÄ±}",
+                                                                                                                                                                "@{flag=System.Object[]; language=ne; text=à¤¸à¤‚à¤¯à¥à¤•à¥à¤¤ à¤°à¤¾à¤œà¥à¤¯ à¤…à¤®à¥‡à¤°à¤¿à¤•à¤¾}",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=Civitates Foederatae Americae; language=la; text=Civitates Foederatae Americae}",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=Leta Zunze Ubumwe z’Amerika; language=rw; text=Leta Zunze Ubumwe z’Amerika}",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=à½¨à¼‹à½˜à½ºà¼‹à½¢à½²à¼‹à½€à¼; language=bo; text=à½¨à¼‹à½˜à½ºà¼‹à½¢à½²à¼‹à½€à¼}",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=AmerikanyÅˆ BirleÅŸen Åžtatlary; language=tk; text=AmerikanyÅˆ BirleÅŸen Åžtatlary}",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=Ð˜Ñ‘Ð»Ð¾Ñ‚Ð¸ ÐœÑƒÑ‚Ñ‚Ð°Ò³Ð¸Ð´Ð°; language=tg; text=Ð˜Ñ‘Ð»Ð¾Ñ‚Ð¸ ÐœÑƒÑ‚Ñ‚Ð°Ò³Ð¸Ð´Ð°}",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=DewletÃªn YekbÃ»yÃ® yÃªn AmerÃ®kayÃª; language=ku; text=DewletÃªn YekbÃ»yÃ® yÃªn AmerÃ®kayÃª}",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=à¬¯à­à¬•à­à¬¤ à¬°à¬¾à¬·à­à¬Ÿà­à¬°; language=or; text=à¬¯à­à¬•à­à¬¤ à¬°à¬¾à¬·à­à¬Ÿà­à¬°}",
+                                                                                                                                                                "@{flag=System.Object[]; language=ka; text=áƒáƒ›áƒ”áƒ áƒ˜áƒ™áƒ˜áƒ¡ áƒ¨áƒ”áƒ”áƒ áƒ—áƒ”áƒ‘áƒ£áƒšáƒ˜ áƒ¨áƒ¢áƒáƒ¢áƒ”áƒ‘áƒ˜}",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=×¤Ö¿×Ö·×¨××™×™× ×™×’×˜×¢ ×©×˜×Ö·×˜×Ÿ; language=yi; text=×¤Ö¿×Ö·×¨××™×™× ×™×’×˜×¢ ×©×˜×Ö·×˜×Ÿ}",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=ÙˆÛŒÙ„Ø§ÛŒÛ•ØªÛ• ÛŒÛ•Ú©Ú¯Ø±ØªÙˆÙˆÛ•Ú©Ø§Ù†; language=ckb; text=ÙˆÛŒÙ„Ø§ÛŒÛ•ØªÛ• ÛŒÛ•Ú©Ú¯Ø±ØªÙˆÙˆÛ•Ú©Ø§Ù†}",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=Ø¢Ù…Ø±ÙŠÚªØ§ Ø¬ÙˆÙ† Ú¯ÚÙŠÙ„ Ø±ÙŠØ§Ø³ØªÙˆÙ†; language=sd; text=Ø¢Ù…Ø±ÙŠÚªØ§ Ø¬ÙˆÙ† Ú¯ÚÙŠÙ„ Ø±ÙŠØ§Ø³ØªÙˆÙ†}",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=Ø¦Ø§Ù…ÛØ±Ù‰ÙƒØ§ Ù‚ÙˆØ´Ù…Ø§ Ø¦Ù‰Ø´ØªØ§ØªÙ„Ù‰Ø±Ù‰; language=ug; text=Ø¦Ø§Ù…ÛØ±Ù‰ÙƒØ§ Ù‚ÙˆØ´Ù…Ø§ Ø¦Ù‰Ø´ØªØ§ØªÙ„Ù‰Ø±Ù‰}",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=à¦®à¦¾à§°à§à¦•à¦¿à¦¨ à¦¯à§à¦•à§à¦¤à§°à¦¾à¦·à§à¦Ÿà§à§°; language=as; text=à¦®à¦¾à§°à§à¦•à¦¿à¦¨ à¦¯à§à¦•à§à¦¤à§°à¦¾à¦·à§à¦Ÿà§à§°}",
+                                                                                                                                                                "@{flag=System.Object[]; short_text=à¤…à¤®à¥‡à¤°à¤¿à¤•à¤¾ à¤¸à¤‚à¤¯à¥à¤•à¥à¤¤ à¤¸à¤‚à¤¸à¥à¤¥à¤¾à¤¨à¤ƒ; language=sa; text=à¤…à¤®à¥‡à¤°à¤¿à¤•à¤¾ à¤¸à¤‚à¤¯à¥à¤•à¥à¤¤ à¤¸à¤‚à¤¸à¥à¤¥à¤¾à¤¨à¤ƒ}"
+                                                                                                                                                            ],
+                                                                                                                                            "temporary_data":  {
+
+                                                                                                                                                               },
+                                                                                                                                            "type":  "TYPE_FEATURE"
+                                                                                                                                        },
+                                                                                                                                        {
+                                                                                                                                            "feature_type":  177,
+                                                                                                                                            "feature_id":  {
+                                                                                                                                                               "fprint":  7932737673624104443,
+                                                                                                                                                               "cell_id":  -8578036620814652941
+                                                                                                                                                           },
+                                                                                                                                            "parsed_name":  [
+                                                                                                                                                                "@{flag=System.Object[]; text=30220}"
+                                                                                                                                                            ],
+                                                                                                                                            "temporary_data":  {
+
+                                                                                                                                                               },
+                                                                                                                                            "type":  "TYPE_FEATURE"
+                                                                                                                                        }
+                                                                                                                                    ],
+                                                                                                                      "template_id":  "CL144345913"
+                                                                                                                  },
+                                                                                                      "geo_coordinate":  {
+                                                                                                                             "lng_degrees":  -84.8405409,
+                                                                                                                             "lat_degrees":  33.2275111
+                                                                                                                         },
+                                                                                                      "description":  "18 Canterbury Dr, Grantville, GA 30220, USA",
+                                                                                                      "postal_code":  "30220",
+                                                                                                      "version_timestamp":  1726196453406,
+                                                                                                      "time_zone":  "America/New_York"
+                                                                                                  }
+                                                                        }
+                                                      }
+                                                  ]
+                          }
+                      ]
+}
