@@ -1,0 +1,1515 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+  <Document id="1XIe8_5q1RbH6cKyYqZns9nb10XCATHiu">
+    <name>Untitled project</name>
+    <description/>
+    <Style id="__style_0">
+      <IconStyle>
+        <Icon>
+          <href><![CDATA[https://earth.google.com/earth/rpc/cc/icon?id=2000&color=1976d2&scale=4.0]]></href>
+        </Icon>
+        <hotSpot x="64" xunits="pixels" y="128" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <color>ffffffff</color>
+        <scale>1</scale>
+      </LabelStyle>
+      <LineStyle>
+        <color>ff2dc0fb</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>40ffffff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<html><head><style>
+    body {
+      width: 496px;
+      margin: 8px;
+    }
+    .feature-media-container.slide {
+      left: 0;
+      top: 0;
+      position: absolute;
+    }
+    .feature-media-container.card,
+    .feature-media-container.simple {
+      overflow-x: auto;
+      margin-right: 8px;
+    }
+    .feature-media {
+      white-space: nowrap;
+      display: inline;
+    }
+    .feature-media img {
+      height: 280px;
+    }
+    .feature-text-container {
+      margin-top: 8px;
+    }
+    .feature-text-container.slide {
+      left: 0;
+      top: 0;
+      position: absolute;
+      padding: 8px;
+      margin: 0;
+      text-shadow: 1px 1px rgb(10, 10, 10);
+      color: white;
+    }
+    .feature-text-section {
+      margin-top: 8px;
+    }
+    .feature-title {
+      font-size: 22px;
+    }
+    .feature-description {
+      font-size: 13px;
+    }
+    </style></head><div class="feature-text-container card"><div class="feature-title feature-text-section">$[name]</div><div class="feature-description feature-text-section">$[description]</div></div></html>]]></text>
+        <displayMode>default</displayMode>
+      </BalloonStyle>
+    </Style>
+    <Style id="__style_1">
+      <IconStyle>
+        <Icon>
+          <href><![CDATA[https://earth.google.com/earth/rpc/cc/icon?id=2000&color=1976d2&scale=4.0]]></href>
+        </Icon>
+        <hotSpot x="64" xunits="pixels" y="128" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <color>ffffffff</color>
+        <scale>1</scale>
+      </LabelStyle>
+      <LineStyle>
+        <color>ff2dc0fb</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>40ffffff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <displayMode>default</displayMode>
+      </BalloonStyle>
+    </Style>
+    <Style id="__style_2">
+      <IconStyle>
+        <Icon>
+          <href><![CDATA[https://earth.google.com/earth/rpc/cc/icon?id=2000&color=1976d2&scale=4.0]]></href>
+        </Icon>
+        <hotSpot x="64" xunits="pixels" y="128" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <color>ffffffff</color>
+        <scale>1</scale>
+      </LabelStyle>
+      <LineStyle>
+        <color>ff2dc0fb</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>40ffffff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <displayMode>default</displayMode>
+      </BalloonStyle>
+    </Style>
+    <Style id="__style_3">
+      <IconStyle>
+        <Icon>
+          <href><![CDATA[https://earth.google.com/earth/rpc/cc/icon?id=2000&color=1976d2&scale=4.0]]></href>
+        </Icon>
+        <hotSpot x="64" xunits="pixels" y="128" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <color>ffffffff</color>
+        <scale>1</scale>
+      </LabelStyle>
+      <LineStyle>
+        <color>ff2dc0fb</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>40ffffff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <displayMode>default</displayMode>
+      </BalloonStyle>
+    </Style>
+    <Schema id="schema" name="__schema">
+      <SimpleField name="COL51A52F3879CB65B6" type="int">
+        <displayName>id</displayName>
+      </SimpleField>
+      <SimpleField name="COL51A52F3879A307B9" type="string">
+        <displayName>specification</displayName>
+      </SimpleField>
+      <SimpleField name="COL51A52F3879D9B682" type="string">
+        <displayName>type</displayName>
+      </SimpleField>
+      <SimpleField name="COL51A52F3879C41C9F" type="int">
+        <displayName>fiber_count</displayName>
+      </SimpleField>
+      <SimpleField name="COL51A52F38791E7B42" type="int">
+        <displayName>directed</displayName>
+      </SimpleField>
+      <SimpleField name="COL51A52F387993A04C" type="double">
+        <displayName>aerial_primary_length</displayName>
+      </SimpleField>
+      <SimpleField name="COL51A52F387989A3BE" type="double">
+        <displayName>aerial_additional_length</displayName>
+      </SimpleField>
+      <SimpleField name="COL51A52F3879F4E562" type="double">
+        <displayName>underground_primary_length</displayName>
+      </SimpleField>
+      <SimpleField name="COL51A52F3879D7E34A" type="double">
+        <displayName>underground_additional_length</displayName>
+      </SimpleField>
+      <SimpleField name="COL51A52F3879779DC8" type="int">
+        <displayName>id</displayName>
+      </SimpleField>
+      <SimpleField name="COL51A52F38790A3696" type="string">
+        <displayName>specification</displayName>
+      </SimpleField>
+      <SimpleField name="COL51A52F38793DD573" type="string">
+        <displayName>type</displayName>
+      </SimpleField>
+      <SimpleField name="COL51A52F38797A1A9F" type="int">
+        <displayName>fiber_count</displayName>
+      </SimpleField>
+      <SimpleField name="COL51A52F38799CFFFA" type="int">
+        <displayName>directed</displayName>
+      </SimpleField>
+      <SimpleField name="COL51A52F3879D61F1A" type="double">
+        <displayName>aerial_primary_length</displayName>
+      </SimpleField>
+      <SimpleField name="COL51A52F3879748ABD" type="double">
+        <displayName>aerial_additional_length</displayName>
+      </SimpleField>
+      <SimpleField name="COL51A52F38799408BD" type="double">
+        <displayName>underground_primary_length</displayName>
+      </SimpleField>
+      <SimpleField name="COL51A52F387AA7B8F8" type="double">
+        <displayName>underground_additional_length</displayName>
+      </SimpleField>
+    </Schema>
+    <Folder id="046A3ACEC234C77C4FED">
+      <name>kml</name>
+      <visibility>1</visibility>
+      <description><![CDATA[<div><a href="https://docs.google.com/spreadsheets/d/1HN3N-LoML2Ux5DUAW93z_C_FpfKChiDzvReKZaN-xSA/edit?gid=1423689682#gid=1423689682">https://docs.google.com/spreadsheets/d/1HN3N-LoML2Ux5DUAW93z_C_FpfKChiDzvReKZaN-xSA/edit?gid=1423689682#gid=1423689682</a><br></div>]]></description>
+      <styleUrl>#__style_0</styleUrl>
+      <ExtendedData>
+        <SchemaData schemaUrl="#schema"/>
+      </ExtendedData>
+    </Folder>
+    <Folder id="06FC61F53634C77D66B3">
+      <name>Untitled folder</name>
+      <visibility>1</visibility>
+      <styleUrl>#__style_1</styleUrl>
+      <ExtendedData>
+        <SchemaData schemaUrl="#schema"/>
+      </ExtendedData>
+      <Folder id="51A52EA630000001">
+        <name>GEARTHKMZ</name>
+        <visibility>1</visibility>
+        <ExtendedData>
+          <SchemaData schemaUrl="#schema"/>
+        </ExtendedData>
+        <Folder id="51A52EA631000002">
+          <name>Untitled Folder</name>
+          <visibility>1</visibility>
+          <ExtendedData>
+            <SchemaData schemaUrl="#schema"/>
+          </ExtendedData>
+        </Folder>
+      </Folder>
+      <Folder id="51A52F379A000001">
+        <name>fiber_cable_feeder.1.kml</name>
+        <visibility>1</visibility>
+        <ExtendedData>
+          <SchemaData schemaUrl="#schema"/>
+        </ExtendedData>
+        <Folder id="51A52F379A000002">
+          <name>test</name>
+          <visibility>1</visibility>
+          <ExtendedData>
+            <SchemaData schemaUrl="#schema"/>
+          </ExtendedData>
+          <Placemark id="51A52F379A000003">
+            <name>BSPD001.01a</name>
+            <visibility>1</visibility>
+            <ExtendedData>
+              <SchemaData schemaUrl="#schema">
+                <SimpleData name="COL51A52F3879779DC8">
+41211264                </SimpleData>
+                <SimpleData name="COL51A52F38790A3696">
+72F                </SimpleData>
+                <SimpleData name="COL51A52F38793DD573">
+Lateral Feeder                </SimpleData>
+                <SimpleData name="COL51A52F38797A1A9F">
+72                </SimpleData>
+                <SimpleData name="COL51A52F38799CFFFA">
+0                </SimpleData>
+              </SchemaData>
+            </ExtendedData>
+            <LineString>
+              <coordinates>
+                -78.124106292524,36.724913747881,0
+                -78.124268613854,36.724534937354,0
+                -78.124412064352,36.7242236485,0
+                -78.124623958864,36.723840973896,0
+              </coordinates>
+            </LineString>
+          </Placemark>
+          <Placemark id="51A52F379A000004">
+            <name>BSPD001</name>
+            <visibility>1</visibility>
+            <ExtendedData>
+              <SchemaData schemaUrl="#schema">
+                <SimpleData name="COL51A52F3879779DC8">
+41211604                </SimpleData>
+                <SimpleData name="COL51A52F38790A3696">
+288F                </SimpleData>
+                <SimpleData name="COL51A52F38793DD573">
+Main Feeder                </SimpleData>
+                <SimpleData name="COL51A52F38797A1A9F">
+288                </SimpleData>
+                <SimpleData name="COL51A52F38799CFFFA">
+0                </SimpleData>
+              </SchemaData>
+            </ExtendedData>
+            <LineString>
+              <coordinates>
+                -78.1307914589239,36.7259370817454,0
+                -78.1307431256112,36.726073272012,0
+                -78.1305677680708,36.7263850566667,0
+                -78.1303824952424,36.7267728483549,0
+                -78.130237016177,36.7269214697784,0
+                -78.1300847638638,36.7271283725958,0
+                -78.1298580575117,36.727505632598,0
+                -78.1296935739965,36.7277954742141,0
+                -78.1294917385352,36.7281420677744,0
+                -78.1293054380963,36.7284189646873,0
+                -78.1291250017135,36.728743544299,0
+                -78.128943899969,36.7290861176372,0
+                -78.1287980623111,36.7293100336204,0
+                -78.128661334485,36.7297028714261,0
+                -78.1285156921177,36.7300395864923,0
+                -78.1284295639019,36.730277561644,0
+                -78.1282929291085,36.7305766311919,0
+                -78.1280837258634,36.730979095115,0
+                -78.1279506911786,36.7312495494742,0
+                -78.1277965837948,36.7315792394461,0
+                -78.1276261634983,36.7319502378468,0
+                -78.1275181599712,36.7322001260349,0
+                -78.1273999065152,36.7323133889578,0
+              </coordinates>
+            </LineString>
+          </Placemark>
+          <Placemark id="51A52F379A000005">
+            <name>BSPD001.02</name>
+            <visibility>1</visibility>
+            <ExtendedData>
+              <SchemaData schemaUrl="#schema">
+                <SimpleData name="COL51A52F3879779DC8">
+41211640                </SimpleData>
+                <SimpleData name="COL51A52F38790A3696">
+72F                </SimpleData>
+                <SimpleData name="COL51A52F38793DD573">
+Lateral Feeder                </SimpleData>
+                <SimpleData name="COL51A52F38797A1A9F">
+72                </SimpleData>
+                <SimpleData name="COL51A52F38799CFFFA">
+0                </SimpleData>
+              </SchemaData>
+            </ExtendedData>
+            <LineString>
+              <coordinates>
+                -78.1299513470106,36.7265335058823,0
+                -78.1300293166772,36.7267100267163,0
+                -78.13042328308,36.726809345851,0
+                -78.1307445524043,36.7261698772837,0
+                -78.1308454770416,36.7259143594511,0
+                -78.131026096659,36.725520738532,0
+                -78.1310981494464,36.7253473520296,0
+                -78.1313361746179,36.7248314443819,0
+                -78.1314390315452,36.7248497924205,0
+                -78.1318453415361,36.7249597138527,0
+                -78.1320511158697,36.7250201234519,0
+                -78.13226025647,36.7250350986663,0
+                -78.1323941145773,36.7250328380479,0
+                -78.1325146789809,36.7250319112559,0
+                -78.1329068976931,36.7250288778363,0
+                -78.133014544854,36.7250177995172,0
+                -78.1332527116605,36.7250149895071,0
+                -78.1333882345889,36.7248469778961,0
+                -78.1334022383003,36.724475293625,0
+                -78.1334069472784,36.7242633299203,0
+                -78.1334110597255,36.7239443504724,0
+                -78.1333993789037,36.7236369354648,0
+                -78.1333972322444,36.723406170883,0
+                -78.1333833612739,36.7231719006022,0
+                -78.1333900127731,36.7227838301528,0
+                -78.1333915377764,36.7225019811579,0
+                -78.1334101462411,36.7222094113302,0
+                -78.1334339882849,36.7219678871039,0
+                -78.1334936284099,36.7217274125206,0
+                -78.1335456397005,36.7215379691707,0
+                -78.133638656687,36.7212669494749,0
+                -78.1339490237613,36.7209762548569,0
+                -78.1343370572411,36.7207040254406,0
+                -78.134637134115,36.7204462918181,0
+                -78.1349067458069,36.7202211659362,0
+                -78.1351521430895,36.7201434795327,0
+                -78.1348973886606,36.7199822544725,0
+                -78.134998668228,36.719453877328,0
+                -78.1349175894872,36.7192020637562,0
+                -78.1348273800644,36.7188775382713,0
+                -78.134685167734,36.7185831552206,0
+                -78.13436604592,36.718470428788,0
+                -78.1345876155076,36.7182597997055,0
+                -78.1341986439333,36.7175659574913,0
+                -78.133796279519,36.7170658018674,0
+                -78.1339187017636,36.7167371007556,0
+                -78.1340553718778,36.716338114347,0
+                -78.1341885849383,36.7159247683109,0
+                -78.1342680186292,36.7157131414093,0
+                -78.1344390339117,36.7152068628342,0
+                -78.1346015275363,36.714823707975,0
+                -78.1348852713274,36.7143917905217,0
+                -78.135171509646,36.7139978333585,0
+                -78.1353314861637,36.7137793769314,0
+                -78.1355823892648,36.713479301673,0
+                -78.135840647945,36.7131245528189,0
+                -78.1362356303213,36.7126133204999,0
+                -78.1364871815595,36.7123369807771,0
+                -78.136831094587,36.7119675444067,0
+                -78.1370041474858,36.7117937990709,0
+                -78.1374297166786,36.7113713584155,0
+                -78.137971147436,36.7108507433542,0
+                -78.138604483133,36.7102680719608,0
+                -78.1387570482761,36.7101557465722,0
+                -78.1389751262392,36.7099179118319,0
+                -78.1393785887609,36.7095166285348,0
+                -78.1396687611047,36.7092364648744,0
+              </coordinates>
+            </LineString>
+          </Placemark>
+          <Placemark id="51A52F379A000006">
+            <name>BSPD001.02a</name>
+            <visibility>1</visibility>
+            <ExtendedData>
+              <SchemaData schemaUrl="#schema">
+                <SimpleData name="COL51A52F3879779DC8">
+41212051                </SimpleData>
+                <SimpleData name="COL51A52F38790A3696">
+72F                </SimpleData>
+                <SimpleData name="COL51A52F38793DD573">
+Lateral Feeder                </SimpleData>
+                <SimpleData name="COL51A52F38797A1A9F">
+72                </SimpleData>
+                <SimpleData name="COL51A52F38799CFFFA">
+0                </SimpleData>
+              </SchemaData>
+            </ExtendedData>
+            <LineString>
+              <coordinates>
+                -78.131437487999,36.724863325209,0
+                -78.131482422278,36.724716737265,0
+                -78.131379836445,36.72470510247,0
+                -78.131021761541,36.724592235866,0
+                -78.130758905058,36.724513766606,0
+                -78.130807725051,36.724416813798,0
+                -78.130882156352,36.724255037674,0
+                -78.130993534722,36.723967784074,0
+                -78.131191355693,36.723568744651,0
+                -78.131354970443,36.723250563188,0
+                -78.131446165549,36.72302912531,0
+                -78.131518585193,36.722861434066,0
+                -78.131700975406,36.722452953861,0
+                -78.131835085857,36.722035871831,0
+                -78.131958467471,36.721676835486,0
+                -78.132004065025,36.721502691505,0
+              </coordinates>
+            </LineString>
+          </Placemark>
+          <Placemark id="51A52F379A000007">
+            <name>BSPD001.03</name>
+            <visibility>1</visibility>
+            <ExtendedData>
+              <SchemaData schemaUrl="#schema">
+                <SimpleData name="COL51A52F3879779DC8">
+41212173                </SimpleData>
+                <SimpleData name="COL51A52F38790A3696">
+72F                </SimpleData>
+                <SimpleData name="COL51A52F38793DD573">
+Lateral Feeder                </SimpleData>
+                <SimpleData name="COL51A52F38797A1A9F">
+72                </SimpleData>
+                <SimpleData name="COL51A52F38799CFFFA">
+0                </SimpleData>
+              </SchemaData>
+            </ExtendedData>
+            <LineString>
+              <coordinates>
+                -78.130867797522,36.725960887663,0
+                -78.130884168008,36.72592384145,0
+                -78.131360260109,36.726066803308,0
+                -78.131772649744,36.726165156612,0
+                -78.132284951666,36.72630489333,0
+                -78.13268460081,36.726382285864,0
+                -78.132952821711,36.726429581264,0
+                -78.133422208289,36.726448929373,0
+                -78.133862090567,36.726481176211,0
+                -78.13420809553,36.726494074943,0
+                -78.1346394,36.7265259,0
+                -78.13515276,36.72654057,0
+                -78.135527742365,36.726565017928,0
+                -78.135975671271,36.726580066431,0
+                -78.136353862742,36.726661758256,0
+                -78.136737418631,36.726711203265,0
+                -78.137142432192,36.726807943409,0
+                -78.137474009957,36.726849805434,0
+                -78.137634942497,36.726879902327,0
+                -78.138132179255,36.726981557434,0
+                -78.138738358493,36.727099794955,0
+                -78.138994509454,36.727271776478,0
+                -78.139355882258,36.727354934153,0
+                -78.139747695274,36.727450639843,0
+                -78.140534657119,36.727619967252,0
+                -78.141359410966,36.727736249775,0
+                -78.142043481039,36.727823847735,0
+                -78.142617145743,36.727896202966,0
+                -78.142858544554,36.728222964143,0
+                -78.143195161786,36.728756097815,0
+                -78.143452653851,36.729209688468,0
+                -78.14361895081,36.729461204405,0
+                -78.14408297297,36.730122741762,0
+                -78.143766472306,36.730236675079,0
+                -78.14417472,36.73063944,0
+                -78.144595274891,36.73100195864,0
+                -78.145177314248,36.731573766658,0
+                -78.14545848,36.7318512,0
+                -78.145888099637,36.732285296253,0
+                -78.14617164,36.73252647,0
+                -78.146333346333,36.732732417217,0
+                -78.146499643292,36.732917283778,0
+                -78.146926114525,36.733357952273,0
+                -78.1471658026083,36.7336352115531,0
+                -78.1474265933335,36.7339481035223,0
+              </coordinates>
+            </LineString>
+          </Placemark>
+          <Placemark id="51A52F379A000008">
+            <name>BSPD001.06a</name>
+            <visibility>1</visibility>
+            <ExtendedData>
+              <SchemaData schemaUrl="#schema">
+                <SimpleData name="COL51A52F3879779DC8">
+41212224                </SimpleData>
+                <SimpleData name="COL51A52F38790A3696">
+72F                </SimpleData>
+                <SimpleData name="COL51A52F38793DD573">
+Lateral Feeder                </SimpleData>
+                <SimpleData name="COL51A52F38797A1A9F">
+72                </SimpleData>
+                <SimpleData name="COL51A52F38799CFFFA">
+0                </SimpleData>
+              </SchemaData>
+            </ExtendedData>
+            <LineString>
+              <coordinates>
+                -78.125416035329,36.733555983945,0
+                -78.12579564,36.73401957,0
+                -78.126180464898,36.734405067577,0
+                -78.126508412637,36.734757124785,0
+                -78.127015350141,36.735313858047,0
+                -78.12759924,36.73595124,0
+                -78.128174064435,36.735629839995,0
+                -78.128804383554,36.736137128021,0
+                -78.12793306754,36.73670166669,0
+                -78.127666925096,36.736820653542,0
+                -78.127480511569,36.736900184974,0
+                -78.127243136071,36.736891586985,0
+                -78.126858239078,36.736813130294,0
+                -78.12656997187,36.736827350136,0
+                -78.126402333807,36.736871414855,0
+                -78.126216177778,36.736965290655,0
+                -78.126209889115,36.73696846198,0
+                -78.12603286332,36.737063039709,0
+                -78.12586924857,36.737215653525,0
+              </coordinates>
+            </LineString>
+          </Placemark>
+          <Placemark id="51A52F379A000009">
+            <name>BSPD001.06b</name>
+            <visibility>1</visibility>
+            <ExtendedData>
+              <SchemaData schemaUrl="#schema">
+                <SimpleData name="COL51A52F3879779DC8">
+41212734                </SimpleData>
+                <SimpleData name="COL51A52F38790A3696">
+72F                </SimpleData>
+                <SimpleData name="COL51A52F38793DD573">
+Lateral Feeder                </SimpleData>
+                <SimpleData name="COL51A52F38797A1A9F">
+72                </SimpleData>
+                <SimpleData name="COL51A52F38799CFFFA">
+0                </SimpleData>
+              </SchemaData>
+            </ExtendedData>
+            <LineString>
+              <coordinates>
+                -78.1256176128314,36.7458358022028,0
+                -78.1255911276607,36.7452348544644,0
+                -78.125469327814,36.744576236751,0
+                -78.125359357244,36.744223753676,0
+                -78.125083658789,36.743782737518,0
+                -78.124678645228,36.743277649339,0
+                -78.124669988863,36.743206445646,0
+              </coordinates>
+            </LineString>
+          </Placemark>
+          <Placemark id="51A52F379A00000A">
+            <name>BSPD001.02ba</name>
+            <visibility>1</visibility>
+            <ExtendedData>
+              <SchemaData schemaUrl="#schema">
+                <SimpleData name="COL51A52F3879779DC8">
+41213029                </SimpleData>
+                <SimpleData name="COL51A52F38790A3696">
+72F                </SimpleData>
+                <SimpleData name="COL51A52F38793DD573">
+Lateral Feeder                </SimpleData>
+                <SimpleData name="COL51A52F38797A1A9F">
+72                </SimpleData>
+                <SimpleData name="COL51A52F38799CFFFA">
+0                </SimpleData>
+              </SchemaData>
+            </ExtendedData>
+            <LineString>
+              <coordinates>
+                -78.135654814755,36.724866071205,0
+                -78.136024959599,36.724849947449,0
+                -78.136201985394,36.724838123358,0
+                -78.136731450357,36.72480031251,0
+                -78.137361769475,36.724729367895,0
+                -78.137833838262,36.72462617561,0
+                -78.138064508237,36.72455953052,0
+                -78.13844496962,36.724446315514,0
+                -78.13880064,36.7242804,0
+                -78.13930248,36.72414315,0
+                -78.140003333058,36.723981947432,0
+              </coordinates>
+            </LineString>
+          </Placemark>
+          <Placemark id="51A52F379A00000B">
+            <name>BSPD001.01</name>
+            <visibility>1</visibility>
+            <ExtendedData>
+              <SchemaData schemaUrl="#schema">
+                <SimpleData name="COL51A52F3879779DC8">
+41213116                </SimpleData>
+                <SimpleData name="COL51A52F38790A3696">
+72F                </SimpleData>
+                <SimpleData name="COL51A52F38793DD573">
+Lateral Feeder                </SimpleData>
+                <SimpleData name="COL51A52F38797A1A9F">
+72                </SimpleData>
+                <SimpleData name="COL51A52F38799CFFFA">
+0                </SimpleData>
+              </SchemaData>
+            </ExtendedData>
+            <LineString>
+              <coordinates>
+                -78.1298352405,36.726707691374,0
+                -78.129142862605,36.726494743629,0
+                -78.128670118848,36.726309612455,0
+                -78.128273151914,36.726199972904,0
+                -78.127943950656,36.726110603958,0
+                -78.12745712972,36.725940769637,0
+                -78.12705672244,36.72584246997,0
+                -78.1265685604,36.725689833546,0
+                -78.126238648691,36.725578043296,0
+                -78.125924830236,36.725494200503,0
+                -78.125570778646,36.725380260149,0
+                -78.125112120905,36.725242671572,0
+                -78.124653463163,36.725102932921,0
+                -78.124345009127,36.724997591308,0
+                -78.124106292524,36.724913747881,0
+                -78.123685185709,36.72478690765,0
+                -78.12321912,36.72463914,0
+                -78.122851018705,36.724518177655,0
+                -78.122381632128,36.724387037076,0
+                -78.12187884,36.72421371,0
+                -78.121635307469,36.724075276955,0
+                -78.121436824002,36.723878564868,0
+                -78.121151168742,36.723559309753,0
+                -78.120976825156,36.723371195849,0
+                -78.120907087722,36.723268001739,0
+                -78.120819915929,36.723205655231,0
+                -78.120576,36.72294237,0
+                -78.120371316471,36.722705268923,0
+                -78.120159421959,36.722488129275,0
+                -78.119800676503,36.722127482611,0
+                -78.119697411456,36.722240352837,0
+                -78.119554583826,36.722397833399,0
+                -78.119165663518,36.7226171232,0
+                -78.118902807035,36.722780515193,0
+                -78.118572895326,36.722946056727,0
+                -78.118320767679,36.72262357289,0
+                -78.118124966421,36.722359135134,0
+                -78.1175536559,36.722189292517,0
+                -78.11709231595,36.722051698224,0
+                -78.116773133077,36.721978601155,0
+                -78.116107945241,36.721785108578,0
+                -78.115574185647,36.721641063788,0
+                -78.115102116861,36.721509918296,0
+              </coordinates>
+            </LineString>
+          </Placemark>
+          <Placemark id="51A52F379A00000C">
+            <name>BSPD001.07b</name>
+            <visibility>1</visibility>
+            <ExtendedData>
+              <SchemaData schemaUrl="#schema">
+                <SimpleData name="COL51A52F3879779DC8">
+41213154                </SimpleData>
+                <SimpleData name="COL51A52F38790A3696">
+72F                </SimpleData>
+                <SimpleData name="COL51A52F38793DD573">
+Lateral Feeder                </SimpleData>
+                <SimpleData name="COL51A52F38797A1A9F">
+72                </SimpleData>
+                <SimpleData name="COL51A52F38799CFFFA">
+0                </SimpleData>
+              </SchemaData>
+            </ExtendedData>
+            <LineString>
+              <coordinates>
+                -78.109685299672,36.732467515873,0
+                -78.109734008513,36.73208481681,0
+                -78.109754925045,36.731978648938,0
+                -78.109793445432,36.731783127162,0
+              </coordinates>
+            </LineString>
+          </Placemark>
+          <Placemark id="51A52F379A00000D">
+            <name>BSPD001.05</name>
+            <visibility>1</visibility>
+            <ExtendedData>
+              <SchemaData schemaUrl="#schema">
+                <SimpleData name="COL51A52F3879779DC8">
+41213710                </SimpleData>
+                <SimpleData name="COL51A52F38790A3696">
+72F                </SimpleData>
+                <SimpleData name="COL51A52F38793DD573">
+Lateral Feeder                </SimpleData>
+                <SimpleData name="COL51A52F38797A1A9F">
+72                </SimpleData>
+                <SimpleData name="COL51A52F38799CFFFA">
+0                </SimpleData>
+              </SchemaData>
+            </ExtendedData>
+            <LineString>
+              <coordinates>
+                -78.127403552209,36.732343605217,0
+                -78.12758736,36.73256184,0
+                -78.12785196,36.7328592,0
+                -78.12822528,36.73328859,0
+                -78.128599817429,36.733549535173,0
+                -78.129015559827,36.733826831896,0
+                -78.12951408,36.73413576,0
+                -78.12979056,36.73432296,0
+                -78.130017,36.73451286,0
+                -78.130450838705,36.734904003548,0
+                -78.130735152861,36.735159799924,0
+                -78.130949729582,36.735348959721,0
+                -78.131180399557,36.735533819982,0
+                -78.131631010672,36.735948679178,0
+                -78.132135265967,36.736406526362,0
+                -78.132712247733,36.73711839886,0
+                -78.132953646544,36.737550445325,0
+                -78.133219185237,36.73804482387,0
+                -78.133533003691,36.7385005091,0
+                -78.133667114142,36.73867891343,0
+                -78.13391655958,36.739080859015,0
+                -78.134208920363,36.739457009393,0
+                -78.13457101858,36.739972869772,0
+                -78.134742679957,36.740290981944,0
+                -78.135112824801,36.740858422005,0
+                -78.135166468981,36.74129044742,0
+                -78.13495189226,36.741821340993,0
+                -78.13489824808,36.742274854457,0
+                -78.1348446039,36.742853026503,0
+                -78.13476145542,36.743753590643,0
+                -78.134706449184,36.744395471059,0
+                -78.134700953427,36.744494048788,0
+                -78.134671580466,36.745020911077,0
+                -78.134682309302,36.745225091422,0
+                -78.134705001791,36.745267525838,0
+                -78.134890105953,36.745613664065,0
+                -78.135100733909,36.745942942219,0
+                -78.135299217376,36.746209447991,0
+                -78.135626446876,36.746731710651,0
+                -78.135875892314,36.747122868011,0
+              </coordinates>
+            </LineString>
+          </Placemark>
+          <Placemark id="51A52F379A00000E">
+            <name>BSPD001.07</name>
+            <visibility>1</visibility>
+            <ExtendedData>
+              <SchemaData schemaUrl="#schema">
+                <SimpleData name="COL51A52F3879779DC8">
+41213731                </SimpleData>
+                <SimpleData name="COL51A52F38790A3696">
+72F                </SimpleData>
+                <SimpleData name="COL51A52F38793DD573">
+Lateral Feeder                </SimpleData>
+                <SimpleData name="COL51A52F38797A1A9F">
+72                </SimpleData>
+                <SimpleData name="COL51A52F38799CFFFA">
+0                </SimpleData>
+              </SchemaData>
+            </ExtendedData>
+            <LineString>
+              <coordinates>
+                -78.127403552209,36.732343605217,0
+                -78.127205068742,36.732448936753,0
+                -78.12660348,36.73283904,0
+                -78.12617904,36.7330995,0
+                -78.1257924,36.73334466,0
+                -78.125416035329,36.733555983945,0
+                -78.12488304,36.73388763,0
+                -78.12443088,36.73416006,0
+                -78.123882530011,36.734471233162,0
+                -78.123646495618,36.734262725067,0
+                -78.123297808446,36.733925241692,0
+                -78.1229238453384,36.7334582008834,0
+                -78.1224628287638,36.7333182644162,0
+                -78.1219440774247,36.7333774059597,0
+                -78.1216540948777,36.733388084552,0
+                -78.1211898920008,36.7333041521935,0
+                -78.1207292515784,36.7331615789908,0
+                -78.120384929456,36.733104097602,0
+                -78.119682190694,36.733043908684,0
+                -78.119438109674,36.733031011053,0
+                -78.11901163844,36.732994467753,0
+                -78.118292806424,36.732960074042,0
+                -78.11727088479,36.732917081882,0
+                -78.116530595102,36.732899885012,0
+                -78.1157823070379,36.7328931355688,0
+                -78.1150683297896,36.7328853984306,0
+                -78.11420724,36.73303371,0
+                -78.113354859628,36.732968375974,0
+                -78.112633345403,36.732890990077,0
+                -78.112246809282,36.732843698658,0
+                -78.111892757692,36.732794257597,0
+                -78.111372409143,36.732706123453,0
+                -78.110940573491,36.732635186142,0
+                -78.110331712045,36.732568548002,0
+                -78.109685299672,36.732467515873,0
+                -78.109547718653,36.732472808942,0
+                -78.109465911278,36.732817822342,0
+                -78.109916522393,36.732890909094,0
+                -78.109799776285,36.733281118184,0
+                -78.109434321113,36.733229435934,0
+                -78.109372112516,36.733219184991,0
+              </coordinates>
+            </LineString>
+          </Placemark>
+          <Placemark id="51A52F379A00000F">
+            <name>BSPD001.01b</name>
+            <visibility>1</visibility>
+            <ExtendedData>
+              <SchemaData schemaUrl="#schema">
+                <SimpleData name="COL51A52F3879779DC8">
+41214013                </SimpleData>
+                <SimpleData name="COL51A52F38790A3696">
+72F                </SimpleData>
+                <SimpleData name="COL51A52F38793DD573">
+Lateral Feeder                </SimpleData>
+                <SimpleData name="COL51A52F38797A1A9F">
+72                </SimpleData>
+                <SimpleData name="COL51A52F38799CFFFA">
+0                </SimpleData>
+              </SchemaData>
+            </ExtendedData>
+            <LineString>
+              <coordinates>
+                -78.12187884,36.72421371,0
+                -78.12176941792,36.724357982515,0
+                -78.121573616662,36.724352607894,0
+                -78.121667493977,36.724640687034,0
+                -78.121816356577,36.725076028459,0
+                -78.122100000181,36.725591448018,0
+                -78.1222568610899,36.7258020019404,0
+                -78.12180227498,36.726008004903,0
+              </coordinates>
+            </LineString>
+          </Placemark>
+          <Placemark id="51A52F379A000010">
+            <name>BSPD001.02b</name>
+            <visibility>1</visibility>
+            <ExtendedData>
+              <SchemaData schemaUrl="#schema">
+                <SimpleData name="COL51A52F3879779DC8">
+41214098                </SimpleData>
+                <SimpleData name="COL51A52F38790A3696">
+72F                </SimpleData>
+                <SimpleData name="COL51A52F38793DD573">
+Lateral Feeder                </SimpleData>
+                <SimpleData name="COL51A52F38797A1A9F">
+72                </SimpleData>
+                <SimpleData name="COL51A52F38799CFFFA">
+0                </SimpleData>
+              </SchemaData>
+            </ExtendedData>
+            <LineString>
+              <coordinates>
+                -78.1336988887452,36.7249900804423,0
+                -78.1339781961416,36.724959146738,0
+                -78.1340441593993,36.7249530936032,0
+                -78.1341926504072,36.7249477451404,0
+                -78.134597360682,36.72488034984,0
+                -78.134875639867,36.724866913379,0
+                -78.135029636909,36.7248651420248,0
+                -78.1355199236633,36.7248315774179,0
+                -78.1354877722537,36.7246463845661,0
+                -78.1354574055521,36.7243637721683,0
+                -78.1354196624429,36.7241962473392,0
+                -78.1357223960064,36.7243356480931,0
+                -78.1360965968383,36.7242954361308,0
+                -78.1367997752113,36.7242849817656,0
+                -78.1372877296842,36.7242069246124,0
+                -78.1375619245464,36.7241541210246,0
+                -78.1378565271387,36.7243569063075,0
+                -78.1378270495148,36.7238594397968,0
+                -78.1379257291905,36.7238746745464,0
+                -78.138386421004,36.723777113868,0
+                -78.138965778152,36.723579326083,0
+                -78.139836825529,36.723333703042,0
+                -78.140402771631,36.723152038231,0
+                -78.140797726909,36.723026807504,0
+                -78.140755960223,36.722522677568,0
+                -78.140743828702,36.72236324915,0
+              </coordinates>
+            </LineString>
+          </Placemark>
+          <Placemark id="51A52F379A000011">
+            <name>BSPD001.04</name>
+            <visibility>1</visibility>
+            <ExtendedData>
+              <SchemaData schemaUrl="#schema">
+                <SimpleData name="COL51A52F3879779DC8">
+41214120                </SimpleData>
+                <SimpleData name="COL51A52F38790A3696">
+72F                </SimpleData>
+                <SimpleData name="COL51A52F38793DD573">
+Lateral Feeder                </SimpleData>
+                <SimpleData name="COL51A52F38797A1A9F">
+72                </SimpleData>
+                <SimpleData name="COL51A52F38799CFFFA">
+0                </SimpleData>
+              </SchemaData>
+            </ExtendedData>
+            <LineString>
+              <coordinates>
+                -78.1302811985847,36.7269399749702,0
+                -78.1301490225687,36.7271738149211,0
+                -78.1299366802267,36.7275239116291,0
+                -78.1297654537115,36.7278309335795,0
+                -78.1295489082438,36.728180932403,0
+                -78.1293685264514,36.7284596484197,0
+                -78.1291954289326,36.7287846757677,0
+                -78.1290009211347,36.7291348348911,0
+                -78.1289115540716,36.7293768223856,0
+                -78.1287527287144,36.7297116231611,0
+                -78.1285915622742,36.7300609319259,0
+                -78.1284757810751,36.7303050850622,0
+                -78.1283488117758,36.730649660592,0
+                -78.1286763364159,36.7307496809426,0
+                -78.1292097964851,36.7309117898541,0
+                -78.1294896273234,36.7309956232732,0
+                -78.129855609918,36.7311090222376,0
+                -78.1304269568673,36.7312723252461,0
+              </coordinates>
+            </LineString>
+          </Placemark>
+          <Placemark id="51A52F379A000012">
+            <name>BSPD001.03c</name>
+            <visibility>1</visibility>
+            <ExtendedData>
+              <SchemaData schemaUrl="#schema">
+                <SimpleData name="COL51A52F3879779DC8">
+41214152                </SimpleData>
+                <SimpleData name="COL51A52F38790A3696">
+72F                </SimpleData>
+                <SimpleData name="COL51A52F38793DD573">
+Lateral Feeder                </SimpleData>
+                <SimpleData name="COL51A52F38797A1A9F">
+72                </SimpleData>
+                <SimpleData name="COL51A52F38799CFFFA">
+0                </SimpleData>
+              </SchemaData>
+            </ExtendedData>
+            <LineString>
+              <coordinates>
+                -78.147416958775,36.733955537704,0
+                -78.14731032,36.73408599,0
+                -78.146979758706,36.734293020946,0
+                -78.146352121796,36.734727232871,0
+                -78.146093313808,36.734877688581,0
+                -78.145597105141,36.735221616402,0
+                -78.145245890223,36.735444493668,0
+                -78.144934753978,36.735577764897,0
+                -78.14443854531,36.7356229051,0
+                -78.143928925597,36.735569166761,0
+                -78.143131516815,36.735482433991,0
+                -78.1428733652885,36.7354408094025,0
+              </coordinates>
+            </LineString>
+          </Placemark>
+          <Placemark id="51A52F379A000013">
+            <name>D1</name>
+            <visibility>1</visibility>
+            <ExtendedData>
+              <SchemaData schemaUrl="#schema">
+                <SimpleData name="COL51A52F3879CB65B6">
+41211898                </SimpleData>
+                <SimpleData name="COL51A52F3879A307B9">
+Drop Cable                </SimpleData>
+                <SimpleData name="COL51A52F3879D9B682">
+Drop                </SimpleData>
+                <SimpleData name="COL51A52F3879C41C9F">
+1                </SimpleData>
+                <SimpleData name="COL51A52F38791E7B42">
+1                </SimpleData>
+              </SchemaData>
+            </ExtendedData>
+            <LineString>
+              <coordinates>
+                -78.1408298353056,36.7093909241904,0
+                -78.140829785626,36.7093907409784,0
+                -78.14120483,36.70994186,0
+              </coordinates>
+            </LineString>
+          </Placemark>
+          <Placemark id="51A52F379A000014">
+            <name>BSPD001.03a</name>
+            <visibility>1</visibility>
+            <ExtendedData>
+              <SchemaData schemaUrl="#schema">
+                <SimpleData name="COL51A52F3879779DC8">
+41214330                </SimpleData>
+                <SimpleData name="COL51A52F38790A3696">
+72F                </SimpleData>
+                <SimpleData name="COL51A52F38793DD573">
+Lateral Feeder                </SimpleData>
+                <SimpleData name="COL51A52F38797A1A9F">
+72                </SimpleData>
+                <SimpleData name="COL51A52F38799CFFFA">
+0                </SimpleData>
+              </SchemaData>
+            </ExtendedData>
+            <LineString>
+              <coordinates>
+                -78.142617145743,36.727896202966,0
+                -78.14238111135,36.727552242331,0
+                -78.142185310092,36.727386710726,0
+                -78.142072657313,36.727145936845,0
+                -78.141906360354,36.726782624828,0
+                -78.142095456089,36.726746615999,0
+                -78.142513880696,36.726776712932,0
+                -78.143117377724,36.726813259192,0
+                -78.143704781498,36.726804660073,0
+                -78.144321689572,36.726602580514,0
+                -78.145032474961,36.726209706232,0
+                -78.145763041641,36.725807961985,0
+              </coordinates>
+            </LineString>
+          </Placemark>
+          <Placemark id="51A52F379A000015">
+            <name>BSPD001.07a</name>
+            <visibility>1</visibility>
+            <ExtendedData>
+              <SchemaData schemaUrl="#schema">
+                <SimpleData name="COL51A52F3879779DC8">
+41214493                </SimpleData>
+                <SimpleData name="COL51A52F38790A3696">
+72F                </SimpleData>
+                <SimpleData name="COL51A52F38793DD573">
+Lateral Feeder                </SimpleData>
+                <SimpleData name="COL51A52F38797A1A9F">
+72                </SimpleData>
+                <SimpleData name="COL51A52F38799CFFFA">
+0                </SimpleData>
+              </SchemaData>
+            </ExtendedData>
+            <LineString>
+              <coordinates>
+                -78.1172811698823,36.7327801070805,0
+                -78.117278931417,36.732781656422,0
+                -78.117276249208,36.732538749838,0
+                -78.117281613626,36.732091627747,0
+                -78.117292342462,36.731392994265,0
+                -78.117327211179,36.730722300143,0
+                -78.117335257806,36.730032252959,0
+                -78.117332575597,36.729357247534,0
+                -78.117343304433,36.728738129061,0
+                -78.117359397687,36.728144802506,0
+              </coordinates>
+            </LineString>
+          </Placemark>
+          <Placemark id="51A52F379A000016">
+            <name>BSPD001.03b</name>
+            <visibility>1</visibility>
+            <ExtendedData>
+              <SchemaData schemaUrl="#schema">
+                <SimpleData name="COL51A52F3879779DC8">
+41214821                </SimpleData>
+                <SimpleData name="COL51A52F38790A3696">
+72F                </SimpleData>
+                <SimpleData name="COL51A52F38793DD573">
+Lateral Feeder                </SimpleData>
+                <SimpleData name="COL51A52F38797A1A9F">
+72                </SimpleData>
+                <SimpleData name="COL51A52F38799CFFFA">
+0                </SimpleData>
+              </SchemaData>
+            </ExtendedData>
+            <LineString>
+              <coordinates>
+                -78.143195161786,36.728756097815,0
+                -78.143307814564,36.728627114201,0
+                -78.143986413445,36.728695905489,0
+                -78.144860813584,36.728773295614,0
+                -78.145686933961,36.728874332604,0
+                -78.146032938924,36.7288990544,0
+                -78.146529147591,36.728940404906,0
+                -78.14704949614,36.72898769873,0
+              </coordinates>
+            </LineString>
+          </Placemark>
+          <Placemark id="51A52F379A000017">
+            <name>Untitled Path</name>
+            <visibility>1</visibility>
+            <ExtendedData>
+              <SchemaData schemaUrl="#schema"/>
+            </ExtendedData>
+            <LineString>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -78.1348848781881,36.714401721816,0
+                -78.1347350059911,36.7143190803734,0
+                -78.1342512297762,36.7140013969044,0
+                -78.1336325123555,36.713609166735,0
+                -78.1323422204678,36.7131834507178,0
+                -78.1310661647724,36.712824996345,0
+                -78.1300724075245,36.7119425256202,0
+              </coordinates>
+            </LineString>
+          </Placemark>
+          <Placemark id="51A52F379A000018">
+            <name>Untitled Path</name>
+            <visibility>1</visibility>
+            <ExtendedData>
+              <SchemaData schemaUrl="#schema"/>
+            </ExtendedData>
+            <LineString>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -78.1344352886084,36.7152486030335,0
+                -78.1354992425093,36.7155036046877,0
+                -78.1359795153607,36.7156841288916,0
+                -78.1366394540497,36.7159026962783,0
+                -78.1365040185073,36.7162723921743,0
+                -78.1363049500942,36.7167983267769,0
+              </coordinates>
+            </LineString>
+          </Placemark>
+          <Placemark id="51A52F379A000019">
+            <name>Untitled Path</name>
+            <visibility>1</visibility>
+            <ExtendedData>
+              <SchemaData schemaUrl="#schema"/>
+            </ExtendedData>
+            <LineString>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -78.135126144403,36.7166811330256,0
+                -78.1352814512641,36.7162209630548,0
+                -78.135510022026,36.7155021660757,0
+              </coordinates>
+            </LineString>
+          </Placemark>
+          <Placemark id="51A52F379A00001A">
+            <name>Untitled Path</name>
+            <visibility>1</visibility>
+            <ExtendedData>
+              <SchemaData schemaUrl="#schema"/>
+            </ExtendedData>
+            <LineString>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -78.134919805271,36.719203892049,0
+                -78.1350160453918,36.7191217007226,0
+                -78.1356980429944,36.7188604910433,0
+                -78.1360224864629,36.7187644649441,0
+                -78.136370512556,36.7186406262698,0
+                -78.1367533926104,36.71850118729,0
+                -78.1371923849879,36.718348056058,0
+                -78.137816282742,36.7181285459965,0
+                -78.1382427434902,36.7179785546054,0
+                -78.1387228713028,36.7178052976511,0
+                -78.1391809861562,36.7176395480776,0
+                -78.1396073339172,36.717480008562,0
+                -78.1399119719282,36.7173868657384,0
+                -78.1403790061366,36.7172203124483,0
+                -78.1405047851572,36.7174491551294,0
+                -78.1406625980494,36.7177244248369,0
+                -78.1410314156516,36.7183916060097,0
+                -78.14130186988,36.7189134489432,0
+                -78.1410318652021,36.7189981165891,0
+                -78.1407532595276,36.7190682960111,0
+              </coordinates>
+            </LineString>
+          </Placemark>
+          <Placemark id="51A52F379A00001B">
+            <name>Untitled Path</name>
+            <visibility>1</visibility>
+            <ExtendedData>
+              <SchemaData schemaUrl="#schema"/>
+            </ExtendedData>
+            <LineString>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -78.1365272025911,36.7197266691294,0
+                -78.1371429349985,36.7194326916741,0
+              </coordinates>
+            </LineString>
+          </Placemark>
+          <Placemark id="51A52F379A00001C">
+            <name>Untitled Path</name>
+            <visibility>1</visibility>
+            <ExtendedData>
+              <SchemaData schemaUrl="#schema"/>
+            </ExtendedData>
+            <LineString>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -78.1382212146278,36.7187243155913,0
+                -78.1381576262699,36.7189550736781,0
+                -78.137715916269,36.7191823796268,0
+                -78.1371443884891,36.7194310468093,0
+              </coordinates>
+            </LineString>
+          </Placemark>
+          <Placemark id="51A52F379A00001D">
+            <name>Untitled Path</name>
+            <visibility>1</visibility>
+            <ExtendedData>
+              <SchemaData schemaUrl="#schema"/>
+            </ExtendedData>
+            <LineString>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -78.1349324039302,36.720234102591,0
+                -78.1351909124331,36.7201514865036,0
+                -78.1355532465123,36.720064673093,0
+                -78.1358073663926,36.7200003681834,0
+                -78.1363021693502,36.7198160805393,0
+                -78.1365192999373,36.7197202836212,0
+              </coordinates>
+            </LineString>
+          </Placemark>
+          <Placemark id="51A52F379A00001E">
+            <name>Untitled Path</name>
+            <visibility>1</visibility>
+            <ExtendedData>
+              <SchemaData schemaUrl="#schema"/>
+            </ExtendedData>
+            <LineString>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -78.141440350611,36.7195075959386,0
+                -78.1416388925422,36.7202106270654,0
+              </coordinates>
+            </LineString>
+          </Placemark>
+          <Placemark id="51A52F379A00001F">
+            <name>Untitled Path</name>
+            <visibility>1</visibility>
+            <ExtendedData>
+              <SchemaData schemaUrl="#schema"/>
+            </ExtendedData>
+            <LineString>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -78.141301333096,36.7189129252985,0
+                -78.141448944485,36.7195059937301,0
+                -78.1416523301218,36.7207964934202,0
+                -78.1416615623885,36.7212517807952,0
+              </coordinates>
+            </LineString>
+          </Placemark>
+          <Placemark id="51A52F379A000020">
+            <name>Untitled Path</name>
+            <visibility>1</visibility>
+            <ExtendedData>
+              <SchemaData schemaUrl="#schema"/>
+            </ExtendedData>
+            <LineString>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -78.1356612320744,36.7248668613471,0
+                -78.1354864833117,36.7250116010297,0
+                -78.1343884613375,36.7249716622713,0
+                -78.13386172417,36.7252507030651,0
+                -78.1333069497677,36.725275371719,0
+                -78.1332617230656,36.725257228454,0
+                -78.133206562491,36.7252351763418,0
+                -78.1330785661294,36.7252278317132,0
+                -78.1330177631941,36.725222552758,0
+                -78.1330022880383,36.7252160790194,0
+                -78.1330937388845,36.725082742315,0
+                -78.1331534155195,36.7251032254755,0
+              </coordinates>
+            </LineString>
+          </Placemark>
+          <Placemark id="51A52F379A000021">
+            <name>Untitled Path</name>
+            <visibility>1</visibility>
+            <ExtendedData>
+              <SchemaData schemaUrl="#schema"/>
+            </ExtendedData>
+            <LineString>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -78.1226496468592,36.7337680928975,0
+                -78.1224319932475,36.7340142827223,0
+                -78.1222316629482,36.734250475957,0
+                -78.1220826487872,36.7344273001565,0
+                -78.1218855456204,36.7346602813538,0
+                -78.1217445484496,36.7348146801991,0
+                -78.1215227681578,36.7350591346332,0
+                -78.1212798343744,36.7354161054603,0
+                -78.1211585717171,36.7355943379658,0
+                -78.1209422864976,36.7359059024855,0
+                -78.1209831859032,36.7363675407486,0
+                -78.1210398380378,36.7368789736919,0
+                -78.1210753325369,36.7373033275695,0
+                -78.1211341946988,36.737831279831,0
+                -78.1211427788868,36.7382593908577,0
+              </coordinates>
+            </LineString>
+          </Placemark>
+          <Placemark id="51A52F379A000022">
+            <name>Untitled Path</name>
+            <visibility>1</visibility>
+            <ExtendedData>
+              <SchemaData schemaUrl="#schema"/>
+            </ExtendedData>
+            <LineString>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -78.1211496756238,36.738265702986,0
+                -78.121210649412,36.7392539076183,0
+                -78.1210747572793,36.739586822656,0
+                -78.1206696993992,36.7400136322214,0
+                -78.1201831408525,36.7403330846452,0
+                -78.1203408535605,36.7406265521361,0
+                -78.1205753888026,36.7410071845901,0
+                -78.120709216269,36.7412604631366,0
+                -78.1210781087286,36.7419110302382,0
+                -78.1207878523261,36.7421227623115,0
+                -78.1205945368167,36.742459705711,0
+              </coordinates>
+            </LineString>
+          </Placemark>
+          <Placemark id="51A52F379A000023">
+            <name>Untitled Path</name>
+            <visibility>1</visibility>
+            <ExtendedData>
+              <SchemaData schemaUrl="#schema"/>
+            </ExtendedData>
+            <LineString>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -78.1283160402207,36.7462892196303,0
+                -78.1274048227047,36.7459258759162,0
+                -78.1263111145996,36.7457613448772,0
+                -78.125619560498,36.7458360237964,0
+                -78.124687551811,36.7460151958615,0
+                -78.1242662259841,36.7461009359993,0
+                -78.1239613186427,36.7461752441027,0
+                -78.1235847616482,36.7462671985191,0
+                -78.1227611573793,36.7464472204905,0
+                -78.1224103889531,36.7465246638564,0
+                -78.1222114476866,36.7456921588965,0
+                -78.1222669085316,36.745127425994,0
+                -78.1222921868286,36.7448199526701,0
+                -78.1223042901868,36.7446454736916,0
+                -78.1223260723133,36.7444976810994,0
+                -78.1223503678654,36.7438409294528,0
+                -78.1224881341065,36.7432035724437,0
+                -78.122685707762,36.7428419868478,0
+                -78.1229050037411,36.7428541482327,0
+                -78.122557012698,36.7421988429204,0
+                -78.1223627750886,36.7417545404749,0
+                -78.1220215954931,36.7410340643316,0
+                -78.1218552347061,36.7406331731961,0
+                -78.1217221435509,36.7403848860883,0
+                -78.1214246182486,36.7397845450709,0
+                -78.1210749324998,36.7395864482846,0
+              </coordinates>
+            </LineString>
+          </Placemark>
+          <Placemark id="51A52F379A000024">
+            <name>Untitled Path</name>
+            <visibility>1</visibility>
+            <ExtendedData>
+              <SchemaData schemaUrl="#schema"/>
+            </ExtendedData>
+            <LineString>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -78.1246670447751,36.7431932781261,0
+                -78.1244474398831,36.743213274203,0
+              </coordinates>
+            </LineString>
+          </Placemark>
+          <Placemark id="51A52F379A000025">
+            <name>Untitled Path</name>
+            <visibility>1</visibility>
+            <ExtendedData>
+              <SchemaData schemaUrl="#schema"/>
+            </ExtendedData>
+            <LineString>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -78.1226508133934,36.7337666688692,0
+                -78.1229162527424,36.7334594379077,0
+                -78.1232573906784,36.7331490207015,0
+                -78.1238537521855,36.7327729879429,0
+                -78.1243041127244,36.732528871672,0
+                -78.1245486644863,36.7324025339456,0
+                -78.124675452351,36.7323179391798,0
+                -78.1250508827601,36.732128972961,0
+                -78.1253286880811,36.7319997804833,0
+                -78.1257321880726,36.7318203465444,0
+                -78.126101058117,36.731664916194,0
+                -78.1263265561361,36.7315699630627,0
+                -78.1266567273354,36.7312030454242,0
+                -78.1267673638284,36.730930942821,0
+                -78.1269124285868,36.7305868263092,0
+                -78.1271215618031,36.7302319592282,0
+                -78.1272203955635,36.7299414981956,0
+                -78.1273532129731,36.7296611067116,0
+                -78.1274090716049,36.7295163669032,0
+                -78.1274471625452,36.7294320174284,0
+                -78.127511888039,36.729303430811,0
+                -78.1276463454784,36.7290244549571,0
+                -78.127829063433,36.72870771505,0
+                -78.1277345517721,36.7285583090501,0
+              </coordinates>
+            </LineString>
+          </Placemark>
+          <Placemark id="51A52F379A000026">
+            <name>Untitled Path</name>
+            <visibility>1</visibility>
+            <ExtendedData>
+              <SchemaData schemaUrl="#schema"/>
+            </ExtendedData>
+            <LineString>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -78.1277296777087,36.7285605205754,0
+                -78.1269182716663,36.7282962016476,0
+                -78.1264693137874,36.7281603007775,0
+                -78.1262128245672,36.7280784198006,0
+                -78.1255715152685,36.7278832372815,0
+                -78.1252397655747,36.727780214936,0
+                -78.1248122089933,36.727647237596,0
+                -78.1243160061718,36.7274962751571,0
+                -78.1239097271445,36.727365504398,0
+                -78.1235173034751,36.7272266133626,0
+                -78.1232395324553,36.7269811111958,0
+                -78.1230053835318,36.7267145010418,0
+                -78.1227859920135,36.7264716832364,0
+                -78.1225030532981,36.7261412244505,0
+                -78.1222575801903,36.7257998912786,0
+              </coordinates>
+            </LineString>
+          </Placemark>
+          <Placemark id="51A52F379A000027">
+            <name>Untitled Path</name>
+            <visibility>1</visibility>
+            <ExtendedData>
+              <SchemaData schemaUrl="#schema"/>
+            </ExtendedData>
+            <LineString>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -78.1150925884765,36.7214955314842,0
+                -78.1141231019303,36.721245236961,0
+                -78.1135637961082,36.721093900753,0
+                -78.1129103572357,36.7209127503525,0
+                -78.1125807290785,36.7208118254016,0
+                -78.1123466396208,36.7213473391723,0
+                -78.1119921234005,36.7218373909001,0
+                -78.1119128730388,36.7223757697887,0
+                -78.1118757151428,36.7224894976708,0
+                -78.1117387968238,36.722786821899,0
+                -78.1114612001878,36.723413508172,0
+                -78.1111113484331,36.7238913673519,0
+                -78.1119542710703,36.7240632245661,0
+                -78.1129185777646,36.7243361158751,0
+                -78.1132451455751,36.7244167694485,0
+                -78.1138827576254,36.7246271599238,0
+                -78.1145347562113,36.7247580142233,0
+                -78.1157787774427,36.7251258585489,0
+                -78.1164397205242,36.72527529205,0
+                -78.117269131013,36.7254261625399,0
+                -78.1172898457245,36.7253752152962,0
+                -78.1173613113189,36.7247409013046,0
+                -78.1173663802866,36.7245172723783,0
+                -78.117405422384,36.7241060789302,0
+                -78.1179870619007,36.7242883334624,0
+                -78.1183401301976,36.7243954303492,0
+                -78.1188224976015,36.7245465103832,0
+                -78.1192936499965,36.7246921097102,0
+                -78.1198402082371,36.7248670503547,0
+                -78.1205401939274,36.7250870757803,0
+                -78.1209645836822,36.725217160485,0
+              </coordinates>
+            </LineString>
+          </Placemark>
+        </Folder>
+      </Folder>
+    </Folder>
+    <Folder id="0CCC58051034C7806116">
+      <name>Untitled folder</name>
+      <visibility>1</visibility>
+      <styleUrl>#__style_1</styleUrl>
+      <ExtendedData>
+        <SchemaData schemaUrl="#schema"/>
+      </ExtendedData>
+    </Folder>
+    <Folder id="0CD75B8C8F3651832D8A">
+      <name>Untitled folder</name>
+      <visibility>1</visibility>
+      <styleUrl>#__style_1</styleUrl>
+      <ExtendedData>
+        <SchemaData schemaUrl="#schema"/>
+      </ExtendedData>
+    </Folder>
+  </Document>
+</kml>

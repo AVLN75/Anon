@@ -1,0 +1,14 @@
+﻿{
+    "filter":  [
+                   {
+                       "query":  "ebay",
+                       "labelsToAdd":  [
+                                           "Trash"
+                                       ],
+                       "labelsToRemove":  [
+                                              "Inbox",
+                                              "Unread"
+                                          ]
+                   }
+               ]
+}

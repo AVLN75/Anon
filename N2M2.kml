@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+  <Document id="1ggDVcCkM_iG7T1zocALvlBr3AUKMcfum">
+    <name>N2M2</name>
+    <description/>
+    <Style id="__style_0">
+      <IconStyle>
+        <Icon>
+          <href><![CDATA[https://earth.google.com/earth/rpc/cc/icon?id=2000&color=7b1fa2&scale=4.0]]></href>
+        </Icon>
+        <hotSpot x="64" xunits="pixels" y="128" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <color>ff007cf5</color>
+        <scale>1</scale>
+      </LabelStyle>
+      <LineStyle>
+        <color>ff2dc0fb</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>40ffffff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<html><head><style>
+    body {
+      width: 496px;
+      margin: 8px;
+    }
+    .feature-media-container.slide {
+      left: 0;
+      top: 0;
+      position: absolute;
+    }
+    .feature-media-container.card,
+    .feature-media-container.simple {
+      overflow-x: auto;
+      margin-right: 8px;
+    }
+    .feature-media {
+      white-space: nowrap;
+      display: inline;
+    }
+    .feature-media img {
+      height: 280px;
+    }
+    .feature-text-container {
+      margin-top: 8px;
+    }
+    .feature-text-container.slide {
+      left: 0;
+      top: 0;
+      position: absolute;
+      padding: 8px;
+      margin: 0;
+      text-shadow: 1px 1px rgb(10, 10, 10);
+      color: white;
+    }
+    .feature-text-section {
+      margin-top: 8px;
+    }
+    .feature-title {
+      font-size: 22px;
+    }
+    .feature-description {
+      font-size: 13px;
+    }
+    </style></head><div class="feature-text-container card"><div class="feature-title feature-text-section">$[name]</div><div class="feature-description feature-text-section">$[description]</div></div></html>]]></text>
+        <displayMode>default</displayMode>
+      </BalloonStyle>
+    </Style>
+    <Style id="__style_1">
+      <IconStyle>
+        <Icon>
+          <href><![CDATA[https://earth.google.com/earth/rpc/cc/icon?id=2000&color=1976d2&scale=4.0]]></href>
+        </Icon>
+        <hotSpot x="64" xunits="pixels" y="128" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <color>ffffffff</color>
+        <scale>1</scale>
+      </LabelStyle>
+      <LineStyle>
+        <color>ff2dc0fb</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>40ffffff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <displayMode>default</displayMode>
+      </BalloonStyle>
+    </Style>
+    <Style id="__style_2">
+      <IconStyle>
+        <Icon>
+          <href><![CDATA[https://earth.google.com/earth/rpc/cc/icon?id=2000&color=d32f2f&scale=4.0]]></href>
+        </Icon>
+        <hotSpot x="64" xunits="pixels" y="128" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <color>ffffffff</color>
+        <scale>1</scale>
+      </LabelStyle>
+      <LineStyle>
+        <color>ff2dc0fb</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>40ffffff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <displayMode>hide</displayMode>
+      </BalloonStyle>
+    </Style>
+    <Style id="__style_3">
+      <IconStyle>
+        <Icon>
+          <href><![CDATA[https://earth.google.com/earth/rpc/cc/icon?id=2000&color=1976d2&scale=4.0]]></href>
+        </Icon>
+        <hotSpot x="64" xunits="pixels" y="128" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <color>ffffffff</color>
+        <scale>1</scale>
+      </LabelStyle>
+      <LineStyle>
+        <color>ff2dc0fb</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>40ffffff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <displayMode>default</displayMode>
+      </BalloonStyle>
+    </Style>
+    <Schema id="schema" name="__schema"/>
+    <Placemark id="0723C1EB1A340BFFD224">
+      <name>start work on the 11th</name>
+      <visibility>1</visibility>
+      <LookAt>
+        <longitude>-96.8294824508029</longitude>
+        <latitude>33.1478905233628</latitude>
+        <altitude>291.302874304486</altitude>
+        <heading>0.05115951603397</heading>
+        <tilt>0</tilt>
+        <range>306258.476676866</range>
+        <altitudeMode>absolute</altitudeMode>
+      </LookAt>
+      <styleUrl>#__style_0</styleUrl>
+      <ExtendedData>
+        <SchemaData schemaUrl="#schema"/>
+      </ExtendedData>
+      <Point>
+        <extrude>0</extrude>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>
+          -96.8294824508029,33.1478905233628,291.302874304486
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="0748F3ABC9340C054186">
+      <name>met up</name>
+      <visibility>1</visibility>
+      <LookAt>
+        <longitude>-84.8415270774387</longitude>
+        <latitude>33.2158136427988</latitude>
+        <altitude>260.973391684756</altitude>
+        <heading>16.6245607742179</heading>
+        <tilt>0</tilt>
+        <range>328846.8710519</range>
+        <altitudeMode>absolute</altitudeMode>
+      </LookAt>
+      <styleUrl>#__style_1</styleUrl>
+      <ExtendedData>
+        <SchemaData schemaUrl="#schema"/>
+      </ExtendedData>
+      <Point>
+        <extrude>0</extrude>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>
+          -84.8364135459229,33.2328756479092,260.973391684756
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="0688E1F035340C06E8F0">
+      <name>start</name>
+      <LookAt>
+        <longitude>-87.7883259</longitude>
+        <latitude>41.9383772</latitude>
+        <altitude>0</altitude>
+        <heading>0</heading>
+        <tilt>0</tilt>
+        <range>761.790955300522</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </LookAt>
+      <styleUrl>#__style_2</styleUrl>
+      <ExtendedData>
+        <SchemaData schemaUrl="#schema"/>
+      </ExtendedData>
+      <Point>
+        <extrude>0</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -82.8007216339349,42.7293182129563,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <GroundOverlay id="06D7782668340C23C4F7">
+      <visibility>1</visibility>
+      <styleUrl>#__style_3</styleUrl>
+      <ExtendedData>
+        <SchemaData schemaUrl="#schema"/>
+      </ExtendedData>
+      <LatLonBox>
+        <north>85</north>
+        <south>-85</south>
+        <east>180</east>
+        <west>-180</west>
+      </LatLonBox>
+      <gx:MapTilePyramid>
+        <tileSize>256</tileSize>
+        <gx:minLevel>0</gx:minLevel>
+        <gx:maxLevel>22</gx:maxLevel>
+      </gx:MapTilePyramid>
+    </GroundOverlay>
+  </Document>
+</kml>

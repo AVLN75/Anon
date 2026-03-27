@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+  <Document id="1bkpvm-WB3XKgIUex-AALF8uLC_DUToO7">
+    <name>Untitled project</name>
+    <description/>
+    <Style id="__style_0">
+      <IconStyle>
+        <Icon>
+          <href><![CDATA[https://earth.google.com/earth/rpc/cc/icon?id=2000&color=1976d2&scale=4.0]]></href>
+        </Icon>
+        <hotSpot x="64" xunits="pixels" y="128" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <color>ffffffff</color>
+        <scale>1</scale>
+      </LabelStyle>
+      <LineStyle>
+        <color>ff2dc0fb</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>40ffffff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <displayMode>default</displayMode>
+      </BalloonStyle>
+    </Style>
+    <Schema id="schema" name="__schema"/>
+    <Placemark id="0D3F72BD6537BD602452">
+      <name>front to back complex</name>
+      <visibility>1</visibility>
+      <LookAt>
+        <longitude>-97.6681998535054</longitude>
+        <latitude>26.1862094053184</latitude>
+        <altitude>11.5562043799376</altitude>
+        <heading>355.238337140181</heading>
+        <tilt>0</tilt>
+        <range>961.210182690265</range>
+        <altitudeMode>absolute</altitudeMode>
+      </LookAt>
+      <styleUrl>#__style_0</styleUrl>
+      <ExtendedData>
+        <SchemaData schemaUrl="#schema"/>
+      </ExtendedData>
+      <LineString>
+        <extrude>0</extrude>
+        <tessellate>0</tessellate>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>
+          -97.6663954692533,26.1843820920953,0
+          -97.6675525652298,26.1843701073677,0
+          -97.6682032736242,26.1844519265201,0
+          -97.6682515916809,26.1850365423671,0
+          -97.6682571860961,26.185367973771,0
+          -97.6682413898753,26.1860433560157,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

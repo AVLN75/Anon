@@ -1,0 +1,11 @@
+﻿{
+    "Name":  "Watchlist",
+    "Holdings":  [
+                     {
+                         "Asset":  {
+                                       "Name":  "",
+                                       "Symbol":  ""
+                                   }
+                     }
+                 ]
+}

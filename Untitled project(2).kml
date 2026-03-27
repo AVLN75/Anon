@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+  <Document id="1GuDb2yknNTYYmzBsZKNQXAZ44bLuR7T3">
+    <name>Untitled project</name>
+    <description/>
+    <Style id="__style_0">
+      <IconStyle>
+        <Icon>
+          <href><![CDATA[https://earth.google.com/earth/rpc/cc/icon?id=2000&color=1976d2&scale=4.0]]></href>
+        </Icon>
+        <hotSpot x="64" xunits="pixels" y="128" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <color>ffffffff</color>
+        <scale>1</scale>
+      </LabelStyle>
+      <LineStyle>
+        <color>ff2dc0fb</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>40ffffff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<!DOCTYPE html>
+<html>
+  <head></head>
+  <body></body>
+</html>]]></text>
+        <displayMode>default</displayMode>
+      </BalloonStyle>
+    </Style>
+    <Schema id="schema" name="__schema">
+      <SimpleField name="0905D59C8C37992ACAF2" type="int">
+        <displayName>Accuracy (m)</displayName>
+      </SimpleField>
+    </Schema>
+    <Placemark id="06E4478C9E37992ACAED">
+      <name>PJH</name>
+      <visibility>1</visibility>
+      <LookAt>
+        <longitude>-98.1770487907991</longitude>
+        <latitude>26.1945303692327</latitude>
+        <altitude>33.7904976783786</altitude>
+        <heading>284.653392354023</heading>
+        <tilt>0</tilt>
+        <range>492.049309160211</range>
+        <altitudeMode>absolute</altitudeMode>
+      </LookAt>
+      <styleUrl>#__style_0</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value>https://earth.usercontent.google.com/hostedimage/e/*/3AL_Y2X6WnJt5Da_2GnDbh9W9aieLwqFzkshrB8n8Gl-N0MZayytDoJ8HwqkrFa_6TBJ29Cvx33hTAIC4OditBG9SoBUXUZWiP9neNCH9smeBImZntvqhFyBh52QwkwTQPJS6RZhI_bIgMYReH82lgkLDsSBlHMsGlSN9M1QLueUlSh3sGLklcwb-r0zARazOyVr2Wycy3bInyoqAzf1gWGU9AnxdW_23Mmy8SUyummsDX_3IooQ01qldp5QdKuisfw?fife=s16383</value>
+        </Data>
+        <SchemaData schemaUrl="#schema">
+          <SimpleData name="0905D59C8C37992ACAF2">
+52          </SimpleData>
+        </SchemaData>
+      </ExtendedData>
+      <Point>
+        <extrude>1</extrude>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>
+          -98.1759475492908,26.1940586648943,33.6231345406932
+        </coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

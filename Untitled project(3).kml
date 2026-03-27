@@ -1,0 +1,975 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+  <Document id="19009rJP2yf5vWi3Mzn05CchC5h3bbvHr">
+    <name>Untitled project</name>
+    <description/>
+    <Style id="__style_0">
+      <IconStyle>
+        <Icon>
+          <href><![CDATA[https://earth.google.com/earth/rpc/cc/icon?id=2000&color=1976d2&scale=4.0]]></href>
+        </Icon>
+        <hotSpot x="64" xunits="pixels" y="128" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <color>ffffffff</color>
+        <scale>1</scale>
+      </LabelStyle>
+      <LineStyle>
+        <color>ff2dc0fb</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>40ffffff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<html><head><style>
+    body {
+      width: 496px;
+      margin: 8px;
+    }
+    .feature-media-container.slide {
+      left: 0;
+      top: 0;
+      position: absolute;
+    }
+    .feature-media-container.card,
+    .feature-media-container.simple {
+      overflow-x: auto;
+      margin-right: 8px;
+    }
+    .feature-media {
+      white-space: nowrap;
+      display: inline;
+    }
+    .feature-media img {
+      height: 280px;
+    }
+    .feature-text-container {
+      margin-top: 8px;
+    }
+    .feature-text-container.slide {
+      left: 0;
+      top: 0;
+      position: absolute;
+      padding: 8px;
+      margin: 0;
+      text-shadow: 1px 1px rgb(10, 10, 10);
+      color: white;
+    }
+    .feature-text-section {
+      margin-top: 8px;
+    }
+    .feature-title {
+      font-size: 22px;
+    }
+    .feature-description {
+      font-size: 13px;
+    }
+    </style></head><div class="feature-media-container card"><div class="feature-media"><img src="https://earth.usercontent.google.com/hostedimage/e/*/3AL_Y2X6vp0SAqDNUcKjHcGxxZx8SI28-_qelNBt-OvHqu-ZsRwdDg7js4IWoQGfUEcM4d7r7bncQn71cTb49TYJMCH1ZClKwuCTaYGrVE63YsWpNrAGzEgUbxqkE9XlI8VMctbZqFoigaYdLvfdJPG1Rnr6ugttgtqQv3LN6YMVJ3MeuGKoAufCNNA0-YM2FzGDCGsQnvPMcYYi-ZgtDT_uQ2PpqhOLILidgeVNZ6uKyklgBzaMuY3AUawU_No29bw?fife=s16383"/></div></div><div class="feature-text-container card"><div class="feature-title feature-text-section">$[name]</div><div class="feature-description feature-text-section">$[description]</div></div></html>]]></text>
+        <displayMode>default</displayMode>
+      </BalloonStyle>
+    </Style>
+    <Style id="__style_1">
+      <IconStyle>
+        <Icon>
+          <href><![CDATA[https://earth.google.com/earth/rpc/cc/icon?id=2000&color=fbc02d&scale=4.0]]></href>
+        </Icon>
+        <hotSpot x="64" xunits="pixels" y="128" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <color>ffffffff</color>
+        <scale>1</scale>
+      </LabelStyle>
+      <LineStyle>
+        <color>ff2dc0fb</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>40ffffff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <displayMode>default</displayMode>
+      </BalloonStyle>
+    </Style>
+    <Style id="__style_2">
+      <IconStyle>
+        <Icon>
+          <href><![CDATA[https://earth.google.com/earth/rpc/cc/icon?id=2000&color=1976d2&scale=4.0]]></href>
+        </Icon>
+        <hotSpot x="64" xunits="pixels" y="128" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <color>ffffffff</color>
+        <scale>1</scale>
+      </LabelStyle>
+      <LineStyle>
+        <color>ff2dc0fb</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>40ffffff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<div>Addresses</div>
+import csv
+from arcgis.gis import GIS
+from arcgis.geocoding import geocode as arcgis_geocode
+from arcgis.features import FeatureLayerCollection, FeatureSet
+from arcgis.mapping import WebMap
+
+# --- Connect to ArcGIS Online ---
+gis = GIS(...)
+
+# --- Load Network Locations from CSV ---
+network_locations = {}
+with open('network_locations.csv', 'r') as csvfile:
+    reader = csv.DictReader(csvfile)
+    for row in reader:
+        network_locations[row['DeviceID']] = row['Address']
+
+network_features = []
+# ... (Define network_fields) ...
+
+for device_id, address in network_locations.items():
+    try:
+        geocode_result = arcgis_geocode(address, search_extent="Harlingen, TX")[0]
+        if geocode_result:
+            coordinates = {'x': geocode_result['location']['x'], 'y': geocode_result['location']['y']}
+            network_features.append({'geometry': coordinates, 'attributes': {'DeviceID': device_id, 'Address': address}})
+    except Exception as e:
+        print(f"Error geocoding {device_id}: {e}")
+
+# --- Create Network Layer ---
+network_layer = create_feature_layer(gis, "Network Devices", "esriGeometryPoint", network_fields, network_features)
+
+# --- Process Photos and Create Web Map (as before) ---
+# ...
+
+
+
+
+# ...
+network_data_items = [{"name": "Router at 123 Main St"}, {"location": "lon:-97.6, lat:26.2"}]
+
+for item in network_data_items:
+    if "at" in item.get("name", ""):
+        address = item["name"].split("at ")[-1]
+        # Geocode the address
+    elif "lon" in item.get("location", "") and "lat" in item.get("location", ""):
+        # Extract coordinates
+        lon_str, lat_str = item["location"].split(",")
+        lon = float(lon_str.split(":")[-1])
+        lat = float(lat_str.split(":")[-1])
+        # Create feature with direct coordinates
+
+
+]]></text>
+        <displayMode>default</displayMode>
+      </BalloonStyle>
+    </Style>
+    <Style id="__style_3">
+      <IconStyle>
+        <Icon>
+          <href><![CDATA[https://earth.google.com/earth/rpc/cc/icon?id=2000&color=1976d2&scale=4.0]]></href>
+        </Icon>
+        <hotSpot x="64" xunits="pixels" y="128" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <color>ffffffff</color>
+        <scale>1</scale>
+      </LabelStyle>
+      <LineStyle>
+        <color>ff2dc0fb</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>40ffffff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <displayMode>default</displayMode>
+      </BalloonStyle>
+    </Style>
+    <Style id="__style_4">
+      <IconStyle>
+        <Icon>
+          <href><![CDATA[https://earth.google.com/earth/rpc/cc/icon?id=2000&color=fbc02d&scale=4.0]]></href>
+        </Icon>
+        <hotSpot x="64" xunits="pixels" y="128" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <color>ffffffff</color>
+        <scale>1</scale>
+      </LabelStyle>
+      <LineStyle>
+        <color>ff2dc0fb</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>40ffffff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <displayMode>default</displayMode>
+      </BalloonStyle>
+    </Style>
+    <Style id="__style_5">
+      <IconStyle>
+        <Icon>
+          <href><![CDATA[https://earth.google.com/earth/rpc/cc/icon?id=2000&color=1976d2&scale=4.0]]></href>
+        </Icon>
+        <hotSpot x="64" xunits="pixels" y="128" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <color>ffffffff</color>
+        <scale>1</scale>
+      </LabelStyle>
+      <LineStyle>
+        <color>ff2dc0fb</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>40ffffff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <displayMode>default</displayMode>
+      </BalloonStyle>
+    </Style>
+    <Style id="__style_6">
+      <IconStyle>
+        <Icon>
+          <href><![CDATA[https://earth.google.com/earth/rpc/cc/icon?id=2000&color=1976d2&scale=4.0]]></href>
+        </Icon>
+        <hotSpot x="64" xunits="pixels" y="128" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <color>ffffffff</color>
+        <scale>1</scale>
+      </LabelStyle>
+      <LineStyle>
+        <color>ff2dc0fb</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>40ffffff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <displayMode>default</displayMode>
+      </BalloonStyle>
+    </Style>
+    <Style id="__style_7">
+      <IconStyle>
+        <Icon>
+          <href><![CDATA[https://earth.google.com/earth/rpc/cc/icon?id=2000&color=1976d2&scale=4.0]]></href>
+        </Icon>
+        <hotSpot x="64" xunits="pixels" y="128" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <color>ffffffff</color>
+        <scale>1</scale>
+      </LabelStyle>
+      <LineStyle>
+        <color>ff2dc0fb</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>40ffffff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <displayMode>default</displayMode>
+      </BalloonStyle>
+    </Style>
+    <Style id="__style_8">
+      <IconStyle>
+        <Icon>
+          <href><![CDATA[https://earth.google.com/earth/rpc/cc/icon?id=2000&color=1976d2&scale=4.0]]></href>
+        </Icon>
+        <hotSpot x="64" xunits="pixels" y="128" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <color>ffffffff</color>
+        <scale>1</scale>
+      </LabelStyle>
+      <LineStyle>
+        <color>ff2dc0fb</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>40ffffff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <displayMode>default</displayMode>
+      </BalloonStyle>
+    </Style>
+    <Style id="__style_9">
+      <IconStyle>
+        <Icon>
+          <href><![CDATA[https://earth.google.com/earth/rpc/cc/icon?id=2000&color=1976d2&scale=4.0]]></href>
+        </Icon>
+        <hotSpot x="64" xunits="pixels" y="128" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <color>ffffffff</color>
+        <scale>1</scale>
+      </LabelStyle>
+      <LineStyle>
+        <color>ff2dc0fb</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>40ffffff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <displayMode>default</displayMode>
+      </BalloonStyle>
+    </Style>
+    <Style id="__style_10">
+      <IconStyle>
+        <Icon>
+          <href><![CDATA[https://earth.google.com/earth/rpc/cc/icon?id=2000&color=1976d2&scale=4.0]]></href>
+        </Icon>
+        <hotSpot x="64" xunits="pixels" y="128" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <color>ffffffff</color>
+        <scale>1</scale>
+      </LabelStyle>
+      <LineStyle>
+        <color>ff2dc0fb</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>40ffffff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <displayMode>default</displayMode>
+      </BalloonStyle>
+    </Style>
+    <Style id="__style_11">
+      <IconStyle>
+        <Icon>
+          <href><![CDATA[https://earth.google.com/earth/rpc/cc/icon?id=2000&color=1976d2&scale=4.0]]></href>
+        </Icon>
+        <hotSpot x="64" xunits="pixels" y="128" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <color>ffffffff</color>
+        <scale>1</scale>
+      </LabelStyle>
+      <LineStyle>
+        <color>ff2dc0fb</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>40ffffff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <displayMode>default</displayMode>
+      </BalloonStyle>
+    </Style>
+    <Style id="__style_12">
+      <IconStyle>
+        <Icon>
+          <href><![CDATA[https://earth.google.com/earth/rpc/cc/icon?id=2000&color=1976d2&scale=4.0]]></href>
+        </Icon>
+        <hotSpot x="64" xunits="pixels" y="128" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <color>ffffffff</color>
+        <scale>1</scale>
+      </LabelStyle>
+      <LineStyle>
+        <color>ff2dc0fb</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>40ffffff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <displayMode>default</displayMode>
+      </BalloonStyle>
+    </Style>
+    <Style id="__style_13">
+      <IconStyle>
+        <Icon>
+          <href><![CDATA[https://earth.google.com/earth/rpc/cc/icon?id=2000&color=1976d2&scale=4.0]]></href>
+        </Icon>
+        <hotSpot x="64" xunits="pixels" y="128" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <color>ffffffff</color>
+        <scale>1</scale>
+      </LabelStyle>
+      <LineStyle>
+        <color>ff2dc0fb</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>40ffffff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <displayMode>default</displayMode>
+      </BalloonStyle>
+    </Style>
+    <Style id="__style_14">
+      <IconStyle>
+        <Icon>
+          <href><![CDATA[https://earth.google.com/earth/rpc/cc/icon?id=2000&color=1976d2&scale=4.0]]></href>
+        </Icon>
+        <hotSpot x="64" xunits="pixels" y="128" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <color>ffffffff</color>
+        <scale>1</scale>
+      </LabelStyle>
+      <LineStyle>
+        <color>ff2dc0fb</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>40ffffff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <displayMode>default</displayMode>
+      </BalloonStyle>
+    </Style>
+    <Style id="__style_15">
+      <IconStyle>
+        <Icon>
+          <href><![CDATA[https://earth.google.com/earth/rpc/cc/icon?id=2000&color=1976d2&scale=4.0]]></href>
+        </Icon>
+        <hotSpot x="64" xunits="pixels" y="128" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <color>ffffffff</color>
+        <scale>1</scale>
+      </LabelStyle>
+      <LineStyle>
+        <color>ff2dc0fb</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>40ffffff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <displayMode>default</displayMode>
+      </BalloonStyle>
+    </Style>
+    <Style id="__style_16">
+      <IconStyle>
+        <Icon>
+          <href><![CDATA[https://earth.google.com/earth/rpc/cc/icon?id=2000&color=1976d2&scale=4.0]]></href>
+        </Icon>
+        <hotSpot x="64" xunits="pixels" y="128" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <color>ffffffff</color>
+        <scale>1</scale>
+      </LabelStyle>
+      <LineStyle>
+        <color>ff2dc0fb</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>40ffffff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <displayMode>default</displayMode>
+      </BalloonStyle>
+    </Style>
+    <Style id="__style_17">
+      <IconStyle>
+        <Icon>
+          <href><![CDATA[https://earth.google.com/earth/rpc/cc/icon?id=2000&color=1976d2&scale=4.0]]></href>
+        </Icon>
+        <hotSpot x="64" xunits="pixels" y="128" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <color>ffffffff</color>
+        <scale>1</scale>
+      </LabelStyle>
+      <LineStyle>
+        <color>ff2dc0fb</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>40ffffff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <displayMode>default</displayMode>
+      </BalloonStyle>
+    </Style>
+    <Schema id="schema" name="__schema"/>
+    <Folder id="04569746CE37707430B6">
+      <name>project photos 2025</name>
+      <visibility>1</visibility>
+      <styleUrl>#__style_0</styleUrl>
+      <ExtendedData>
+        <SchemaData schemaUrl="#schema"/>
+      </ExtendedData>
+    </Folder>
+    <Placemark id="0F1B2920813770AC6298">
+      <name>6508 S Venus Ln</name>
+      <LookAt>
+        <longitude>-98.1931276</longitude>
+        <latitude>26.1304124</latitude>
+        <altitude>0</altitude>
+        <heading>0</heading>
+        <tilt>0</tilt>
+        <range>936.934807725449</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </LookAt>
+      <styleUrl>#__style_1</styleUrl>
+      <ExtendedData>
+        <SchemaData schemaUrl="#schema"/>
+      </ExtendedData>
+      <Point>
+        <extrude>0</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -98.1931276,26.1304124,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Folder id="00030BA7793770AC8B23">
+      <name>maps_folder</name>
+      <visibility>1</visibility>
+      <LookAt>
+        <longitude>-98.1943137470385</longitude>
+        <latitude>26.13123002174</latitude>
+        <altitude>-1.41464839842342e-09</altitude>
+        <heading>2.30961786932082</heading>
+        <tilt>0</tilt>
+        <range>441.784155692902</range>
+        <altitudeMode>absolute</altitudeMode>
+      </LookAt>
+      <styleUrl>#__style_2</styleUrl>
+      <ExtendedData>
+        <SchemaData schemaUrl="#schema"/>
+      </ExtendedData>
+    </Folder>
+    <Placemark id="0B66F54CE23791023457">
+      <name>Untitled measurement</name>
+      <visibility>1</visibility>
+      <LookAt>
+        <longitude>-98.1891045421252</longitude>
+        <latitude>26.1664853053103</latitude>
+        <altitude>28.7427121625552</altitude>
+        <heading>0</heading>
+        <tilt>0</tilt>
+        <range>25.7745682464338</range>
+        <altitudeMode>absolute</altitudeMode>
+      </LookAt>
+      <styleUrl>#__style_3</styleUrl>
+      <ExtendedData>
+        <SchemaData schemaUrl="#schema"/>
+      </ExtendedData>
+      <LineString>
+        <extrude>0</extrude>
+        <tessellate>0</tessellate>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>
+          -98.1896781329538,26.166565146783,0
+          -98.189104542124,26.1664846780597,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark id="0A0E52F267379102B87C">
+      <name>2418 S Cage Blvd</name>
+      <LookAt>
+        <longitude>-98.18928</longitude>
+        <latitude>26.167465</latitude>
+        <altitude>0</altitude>
+        <heading>0</heading>
+        <tilt>0</tilt>
+        <range>936.604983679618</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </LookAt>
+      <styleUrl>#__style_1</styleUrl>
+      <ExtendedData>
+        <SchemaData schemaUrl="#schema"/>
+      </ExtendedData>
+      <Point>
+        <extrude>0</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -98.18928,26.167465,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="0ECC20C8923791036D30">
+      <name>Untitled measurement</name>
+      <visibility>1</visibility>
+      <LookAt>
+        <longitude>-98.1895919225008</longitude>
+        <latitude>26.1669074282541</latitude>
+        <altitude>28.499615433832</altitude>
+        <heading>-0</heading>
+        <tilt>0</tilt>
+        <range>33.4050047972596</range>
+        <altitudeMode>absolute</altitudeMode>
+      </LookAt>
+      <styleUrl>#__style_3</styleUrl>
+      <ExtendedData>
+        <SchemaData schemaUrl="#schema"/>
+      </ExtendedData>
+      <LineString>
+        <extrude>0</extrude>
+        <tessellate>0</tessellate>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>
+          -98.1896774972171,26.1665645308248,0
+          -98.1895919225009,26.1669082003006,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark id="01460DC2E4379103F1E4">
+      <name>Untitled measurement</name>
+      <visibility>1</visibility>
+      <LookAt>
+        <longitude>-98.1895345233337</longitude>
+        <latitude>26.167232472523</latitude>
+        <altitude>28.3435688566448</altitude>
+        <heading>-0</heading>
+        <tilt>0</tilt>
+        <range>33.561056676549</range>
+        <altitudeMode>absolute</altitudeMode>
+      </LookAt>
+      <styleUrl>#__style_3</styleUrl>
+      <ExtendedData>
+        <SchemaData schemaUrl="#schema"/>
+      </ExtendedData>
+      <LineString>
+        <extrude>0</extrude>
+        <tessellate>0</tessellate>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>
+          -98.1895925624192,26.1669082364103,0
+          -98.1895360582206,26.1672324725296,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark id="0C846DAC053791046C28">
+      <name>Untitled measurement</name>
+      <visibility>1</visibility>
+      <LookAt>
+        <longitude>-98.1894546953936</longitude>
+        <latitude>26.1677022890338</latitude>
+        <altitude>33.2724330073531</altitude>
+        <heading>-0</heading>
+        <tilt>0</tilt>
+        <range>28.6321953126981</range>
+        <altitudeMode>absolute</altitudeMode>
+      </LookAt>
+      <styleUrl>#__style_3</styleUrl>
+      <ExtendedData>
+        <SchemaData schemaUrl="#schema"/>
+      </ExtendedData>
+      <LineString>
+        <extrude>0</extrude>
+        <tessellate>0</tessellate>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>
+          -98.1895345233337,26.1672324725256,0
+          -98.1894561971959,26.1677022890423,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark id="0C5065678F3791051B98">
+      <name>Untitled measurement</name>
+      <visibility>1</visibility>
+      <LookAt>
+        <longitude>-98.1893033325495</longitude>
+        <latitude>26.1676139560452</latitude>
+        <altitude>34.1362742802482</altitude>
+        <heading>-0</heading>
+        <tilt>0</tilt>
+        <range>27.7683545957598</range>
+        <altitudeMode>absolute</altitudeMode>
+      </LookAt>
+      <styleUrl>#__style_3</styleUrl>
+      <ExtendedData>
+        <SchemaData schemaUrl="#schema"/>
+      </ExtendedData>
+      <LineString>
+        <extrude>0</extrude>
+        <tessellate>0</tessellate>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>
+          -98.1893166432221,26.1676339124407,0
+          -98.1893033325481,26.1676131520034,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark id="0FC26074213791059503">
+      <name>Untitled measurement</name>
+      <visibility>1</visibility>
+      <LookAt>
+        <longitude>-98.189453821188</longitude>
+        <latitude>26.1676977189576</latitude>
+        <altitude>30.9975089827864</altitude>
+        <heading>0</heading>
+        <tilt>0</tilt>
+        <range>30.9071172506583</range>
+        <altitudeMode>absolute</altitudeMode>
+      </LookAt>
+      <styleUrl>#__style_3</styleUrl>
+      <ExtendedData>
+        <SchemaData schemaUrl="#schema"/>
+      </ExtendedData>
+      <LineString>
+        <extrude>0</extrude>
+        <tessellate>0</tessellate>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>
+          -98.1893161933716,26.1676333185942,0
+          -98.1894521697814,26.1676977189584,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark id="0177220D2A3791078648">
+      <name>Untitled measurement</name>
+      <visibility>1</visibility>
+      <LookAt>
+        <longitude>-98.1893456603462</longitude>
+        <latitude>26.1683577745758</latitude>
+        <altitude>28.9420972233867</altitude>
+        <heading>-0</heading>
+        <tilt>0</tilt>
+        <range>28.2032822477458</range>
+        <altitudeMode>absolute</altitudeMode>
+      </LookAt>
+      <styleUrl>#__style_3</styleUrl>
+      <ExtendedData>
+        <SchemaData schemaUrl="#schema"/>
+      </ExtendedData>
+      <LineString>
+        <extrude>0</extrude>
+        <tessellate>0</tessellate>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>
+          -98.1893932310119,26.1680258419658,0
+          -98.1893456603449,26.1683585297445,0
+          -98.1893456603476,26.1683577745773,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark id="0B19CF120E379108524B">
+      <name>Untitled measurement</name>
+      <visibility>1</visibility>
+      <LookAt>
+        <longitude>-98.1892552302136</longitude>
+        <latitude>26.1688640842675</latitude>
+        <altitude>35.1636150526355</altitude>
+        <heading>-0</heading>
+        <tilt>0</tilt>
+        <range>24.9614227336951</range>
+        <altitudeMode>absolute</altitudeMode>
+      </LookAt>
+      <styleUrl>#__style_3</styleUrl>
+      <ExtendedData>
+        <SchemaData schemaUrl="#schema"/>
+      </ExtendedData>
+      <LineString>
+        <extrude>0</extrude>
+        <tessellate>0</tessellate>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>
+          -98.1893456603476,26.1683577745773,0
+          -98.1892552302131,26.1688633087068,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark id="01DA0E62BF3791090009">
+      <name>Untitled measurement</name>
+      <visibility>1</visibility>
+      <LookAt>
+        <longitude>-98.1891697811636</longitude>
+        <latitude>26.169379784691</latitude>
+        <altitude>31.1766457439649</altitude>
+        <heading>-0</heading>
+        <tilt>0</tilt>
+        <range>30.1895098024807</range>
+        <altitudeMode>absolute</altitudeMode>
+      </LookAt>
+      <styleUrl>#__style_3</styleUrl>
+      <ExtendedData>
+        <SchemaData schemaUrl="#schema"/>
+      </ExtendedData>
+      <LineString>
+        <extrude>0</extrude>
+        <tessellate>0</tessellate>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>
+          -98.1892552302133,26.1688640842641,0
+          -98.1891697811634,26.1693788128009,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark id="071954A330379109FF51">
+      <name>Untitled measurement</name>
+      <visibility>1</visibility>
+      <LookAt>
+        <longitude>-98.1891262722604</longitude>
+        <latitude>26.1696971177702</latitude>
+        <altitude>36.2002064499758</altitude>
+        <heading>0</heading>
+        <tilt>0</tilt>
+        <range>25.1659476648456</range>
+        <altitudeMode>absolute</altitudeMode>
+      </LookAt>
+      <styleUrl>#__style_3</styleUrl>
+      <ExtendedData>
+        <SchemaData schemaUrl="#schema"/>
+      </ExtendedData>
+      <LineString>
+        <extrude>0</extrude>
+        <tessellate>0</tessellate>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>
+          -98.1891697811636,26.1693797846956,0
+          -98.1891697811636,26.1693797847035,0
+          -98.1891262722803,26.1696962347689,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark id="0D46E5856E379112CA48">
+      <name>Untitled measurement</name>
+      <visibility>1</visibility>
+      <LookAt>
+        <longitude>-98.1890993235473</longitude>
+        <latitude>26.1698556080406</latitude>
+        <altitude>35.5577986875547</altitude>
+        <heading>-0</heading>
+        <tilt>0</tilt>
+        <range>25.8421657149665</range>
+        <altitudeMode>absolute</altitudeMode>
+      </LookAt>
+      <styleUrl>#__style_3</styleUrl>
+      <ExtendedData>
+        <SchemaData schemaUrl="#schema"/>
+      </ExtendedData>
+      <LineString>
+        <extrude>0</extrude>
+        <tessellate>0</tessellate>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>
+          -98.1891262722624,26.1696971177701,0
+          -98.1890993235484,26.1698539762773,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark id="0E18FC0D3D37911553AC">
+      <name>Untitled measurement</name>
+      <visibility>1</visibility>
+      <LookAt>
+        <longitude>-98.1897149411576</longitude>
+        <latitude>26.1699434905082</latitude>
+        <altitude>34.9121086197241</altitude>
+        <heading>-0</heading>
+        <tilt>0</tilt>
+        <range>25.0004422222173</range>
+        <altitudeMode>absolute</altitudeMode>
+      </LookAt>
+      <styleUrl>#__style_3</styleUrl>
+      <ExtendedData>
+        <SchemaData schemaUrl="#schema"/>
+      </ExtendedData>
+      <LineString>
+        <extrude>0</extrude>
+        <tessellate>0</tessellate>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>
+          -98.1890993235489,26.169855608038,0
+          -98.1897152824473,26.1699432644811,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark id="038EAA6E1437915C1670">
+      <name>Untitled measurement</name>
+      <visibility>1</visibility>
+      <LookAt>
+        <longitude>-98.1900643412928</longitude>
+        <latitude>26.169996374722</latitude>
+        <altitude>35.0419878951874</altitude>
+        <heading>0</heading>
+        <tilt>0</tilt>
+        <range>25.0685611867357</range>
+        <altitudeMode>absolute</altitudeMode>
+      </LookAt>
+      <styleUrl>#__style_3</styleUrl>
+      <ExtendedData>
+        <SchemaData schemaUrl="#schema"/>
+      </ExtendedData>
+      <LineString>
+        <extrude>0</extrude>
+        <tessellate>0</tessellate>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>
+          -98.1897153437348,26.1699425389572,0
+          -98.190066068851,26.1699963747202,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark id="01EBCB7DE737915D3CF7">
+      <name>PHD4</name>
+      <visibility>1</visibility>
+      <LookAt>
+        <longitude>-98.1904314364755</longitude>
+        <latitude>26.1700477548267</latitude>
+        <altitude>34.7271024399011</altitude>
+        <heading>-0</heading>
+        <tilt>0</tilt>
+        <range>49.2018425009064</range>
+        <altitudeMode>absolute</altitudeMode>
+      </LookAt>
+      <styleUrl>#__style_3</styleUrl>
+      <ExtendedData>
+        <SchemaData schemaUrl="#schema"/>
+      </ExtendedData>
+      <LineString>
+        <extrude>0</extrude>
+        <tessellate>0</tessellate>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>
+          -98.1900665538779,26.1699970212624,0
+          -98.1904289260429,26.1700477548327,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

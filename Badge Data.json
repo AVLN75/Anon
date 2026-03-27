@@ -1,0 +1,75 @@
+﻿{
+    "awards":  [
+                   {
+                       "state":  "GIVEN",
+                       "badge":  {
+                                     "id":  {
+                                                "servePath":  "/profile/badges/activity/cloud/activate-cloud-shell"
+                                            },
+                                     "title":  "Cloud Shell in Cloud documentation",
+                                     "description":  "I activated Cloud Shell in the Cloud documentation.",
+                                     "imageUrl":  "/static/profile/badges/activity/cloud/activate-cloud-shell/badge.svg",
+                                     "imagePath":  "developers.google.com/static/profile/badges/activity/cloud/activate-cloud-shell/badge.svg"
+                                 },
+                       "visibility":  "PUBLIC",
+                       "createTime":  "2025-12-30T23:07:35.395713Z",
+                       "awardingUrl":  "docs.cloud.google.com/sdk/gcloud/reference/auth/login?cloudshell=true"
+                   },
+                   {
+                       "state":  "GIVEN",
+                       "badge":  {
+                                     "id":  {
+                                                "servePath":  "/profile/badges/activity/android/install-android-studio-canary"
+                                            },
+                                     "title":  "Android Studio Canary",
+                                     "description":  "Installed Android Studio Canary",
+                                     "imageUrl":  "/static/profile/badges/activity/android/install-android-studio-canary/badge.svg",
+                                     "imagePath":  "developers.google.com/static/profile/badges/activity/android/install-android-studio-canary/badge.svg"
+                                 },
+                       "visibility":  "PUBLIC",
+                       "createTime":  "2021-10-04T04:37:29.364925Z"
+                   },
+                   {
+                       "state":  "GIVEN",
+                       "badge":  {
+                                     "id":  {
+                                                "servePath":  "/profile/badges/activity/android/install-android-studio"
+                                            },
+                                     "title":  "Android Studio User",
+                                     "description":  "I use Android Studio",
+                                     "imageUrl":  "/static/profile/badges/activity/android/install-android-studio/badge.svg",
+                                     "imagePath":  "developers.google.com/static/profile/badges/activity/android/install-android-studio/badge.svg"
+                                 },
+                       "visibility":  "PUBLIC",
+                       "createTime":  "2021-08-05T05:13:07.160854Z"
+                   },
+                   {
+                       "state":  "GIVEN",
+                       "badge":  {
+                                     "id":  {
+                                                "servePath":  "/profile/badges/profile/created-profile"
+                                            },
+                                     "title":  "Joined the Google Developer Program",
+                                     "description":  "Joined the Google Developer Program",
+                                     "imageUrl":  "/static/profile/badges/profile/created-profile/created_profile.svg",
+                                     "imagePath":  "developers.google.com/static/profile/badges/profile/created-profile/created_profile.svg"
+                                 },
+                       "visibility":  "PUBLIC",
+                       "createTime":  "2021-08-01T13:26:28.299527Z"
+                   },
+                   {
+                       "state":  "GIVEN",
+                       "badge":  {
+                                     "id":  {
+                                                "servePath":  "/profile/badges/activity/android/building-my-first-app"
+                                            },
+                                     "title":  "First Android app",
+                                     "description":  "Built first Android app",
+                                     "imageUrl":  "/static/profile/badges/activity/android/building-my-first-app/badge.svg",
+                                     "imagePath":  "developers.google.com/static/profile/badges/activity/android/building-my-first-app/badge.svg"
+                                 },
+                       "visibility":  "PUBLIC",
+                       "createTime":  "2021-08-01T13:26:27.297130Z"
+                   }
+               ]
+}

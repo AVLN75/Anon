@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+  <Document id="13j6Kex778yG8g04djrop5BVV4PxlZfcS">
+    <name>UI-1</name>
+    <description/>
+    <Style id="__style_0">
+      <IconStyle>
+        <Icon>
+          <href><![CDATA[https://earth.google.com/earth/rpc/cc/icon?id=2000&color=1976d2&scale=4.0]]></href>
+        </Icon>
+        <hotSpot x="64" xunits="pixels" y="128" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <color>ffffffff</color>
+        <scale>1</scale>
+      </LabelStyle>
+      <LineStyle>
+        <color>ff2dc0fb</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>40ffffff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<!DOCTYPE html>
+<html>
+  <head></head>
+  <body></body>
+</html>]]></text>
+        <displayMode>default</displayMode>
+      </BalloonStyle>
+    </Style>
+    <Style id="__style_1">
+      <IconStyle>
+        <Icon>
+          <href><![CDATA[https://earth.google.com/earth/rpc/cc/icon?id=2000&color=1976d2&scale=4.0]]></href>
+        </Icon>
+        <hotSpot x="64" xunits="pixels" y="128" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <color>ffffffff</color>
+        <scale>1</scale>
+      </LabelStyle>
+      <LineStyle>
+        <color>ff2dc0fb</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>40ffffff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<html><head><style>
+    body {
+      width: 496px;
+      margin: 8px;
+    }
+    .feature-media-container.slide {
+      left: 0;
+      top: 0;
+      position: absolute;
+    }
+    .feature-media-container.card,
+    .feature-media-container.simple {
+      overflow-x: auto;
+      margin-right: 8px;
+    }
+    .feature-media {
+      white-space: nowrap;
+      display: inline;
+    }
+    .feature-media img {
+      height: 280px;
+    }
+    .feature-text-container {
+      margin-top: 8px;
+    }
+    .feature-text-container.slide {
+      left: 0;
+      top: 0;
+      position: absolute;
+      padding: 8px;
+      margin: 0;
+      text-shadow: 1px 1px rgb(10, 10, 10);
+      color: white;
+    }
+    .feature-text-section {
+      margin-top: 8px;
+    }
+    .feature-title {
+      font-size: 22px;
+    }
+    .feature-description {
+      font-size: 13px;
+    }
+    </style></head><div class="feature-text-container simple"><div class="feature-title feature-text-section">$[name]</div><div class="feature-description feature-text-section">$[description]</div></div></html>]]></text>
+        <displayMode>default</displayMode>
+      </BalloonStyle>
+    </Style>
+    <Style id="__style_2">
+      <IconStyle>
+        <Icon>
+          <href><![CDATA[https://earth.google.com/earth/rpc/cc/icon?id=2000&color=1976d2&scale=4.0]]></href>
+        </Icon>
+        <hotSpot x="64" xunits="pixels" y="128" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <color>ffffffff</color>
+        <scale>1</scale>
+      </LabelStyle>
+      <LineStyle>
+        <color>ff2dc0fb</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>40ffffff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <displayMode>default</displayMode>
+      </BalloonStyle>
+    </Style>
+    <Schema id="schema" name="__schema"/>
+    <Folder id="0C248DF2B134C8013390">
+      <name>images</name>
+      <visibility>1</visibility>
+      <styleUrl>#__style_0</styleUrl>
+      <ExtendedData>
+        <SchemaData schemaUrl="#schema"/>
+      </ExtendedData>
+    </Folder>
+    <Folder id="058DDABA2034E9879A3F">
+      <name>Untitled folder</name>
+      <visibility>1</visibility>
+      <styleUrl>#__style_1</styleUrl>
+      <ExtendedData>
+        <SchemaData schemaUrl="#schema"/>
+      </ExtendedData>
+    </Folder>
+    <GroundOverlay id="04A5271DB135BBE28C0F">
+      <name>Untitled overlay</name>
+      <visibility>1</visibility>
+      <styleUrl>#__style_2</styleUrl>
+      <ExtendedData>
+        <SchemaData schemaUrl="#schema"/>
+      </ExtendedData>
+      <LatLonBox>
+        <north>85</north>
+        <south>-85</south>
+        <east>180</east>
+        <west>-180</west>
+      </LatLonBox>
+      <gx:MapTilePyramid>
+        <tileSize>256</tileSize>
+        <gx:minLevel>0</gx:minLevel>
+        <gx:maxLevel>22</gx:maxLevel>
+      </gx:MapTilePyramid>
+    </GroundOverlay>
+  </Document>
+</kml>

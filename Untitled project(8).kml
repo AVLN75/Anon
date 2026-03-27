@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+  <Document id="1v7jUQe3k0ympVpKW9Uv2XXVZK-g5flNA">
+    <name>Untitled project</name>
+    <description/>
+    <Style id="__style_0">
+      <IconStyle>
+        <Icon>
+          <href><![CDATA[https://earth.google.com/earth/rpc/cc/icon?id=2000&color=1976d2&scale=4.0]]></href>
+        </Icon>
+        <hotSpot x="64" xunits="pixels" y="128" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <color>ffffffff</color>
+        <scale>1</scale>
+      </LabelStyle>
+      <LineStyle>
+        <color>ff2dc0fb</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>40ffffff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <displayMode>default</displayMode>
+      </BalloonStyle>
+    </Style>
+    <Style id="__style_1">
+      <IconStyle>
+        <Icon>
+          <href><![CDATA[https://earth.google.com/earth/rpc/cc/icon?id=2000&color=1976d2&scale=4.0]]></href>
+        </Icon>
+        <hotSpot x="64" xunits="pixels" y="128" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <color>ffffffff</color>
+        <scale>1</scale>
+      </LabelStyle>
+      <LineStyle>
+        <color>ff2dc0fb</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>40ffffff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <displayMode>default</displayMode>
+      </BalloonStyle>
+    </Style>
+    <Schema id="schema" name="__schema"/>
+    <GroundOverlay id="0EA148CD8635F33A6A44">
+      <name>Untitled overlay</name>
+      <visibility>1</visibility>
+      <styleUrl>#__style_0</styleUrl>
+      <ExtendedData>
+        <SchemaData schemaUrl="#schema"/>
+      </ExtendedData>
+      <LatLonBox>
+        <north>85</north>
+        <south>-85</south>
+        <east>180</east>
+        <west>-180</west>
+      </LatLonBox>
+      <gx:MapTilePyramid>
+        <tileSize>256</tileSize>
+        <gx:minLevel>0</gx:minLevel>
+        <gx:maxLevel>22</gx:maxLevel>
+      </gx:MapTilePyramid>
+    </GroundOverlay>
+    <GroundOverlay id="0867B6FDE935F33AC350">
+      <name>Untitled overlay</name>
+      <visibility>1</visibility>
+      <styleUrl>#__style_0</styleUrl>
+      <ExtendedData>
+        <SchemaData schemaUrl="#schema"/>
+      </ExtendedData>
+      <LatLonBox>
+        <north>85</north>
+        <south>-85</south>
+        <east>180</east>
+        <west>-180</west>
+      </LatLonBox>
+      <gx:MapTilePyramid>
+        <tileSize>256</tileSize>
+        <gx:minLevel>0</gx:minLevel>
+        <gx:maxLevel>22</gx:maxLevel>
+      </gx:MapTilePyramid>
+    </GroundOverlay>
+  </Document>
+</kml>

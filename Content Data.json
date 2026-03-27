@@ -1,0 +1,11 @@
+﻿{
+    "states":  [
+                   {
+                       "state":  "STARTED",
+                       "id":  {
+                                  "site":  "firebase.google.com",
+                                  "id":  "/codelabs/digitclassifier-android"
+                              }
+                   }
+               ]
+}

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+  <Document id="18VPkKQE-B7Iy2mwv1gF7XyPOrjIh6zMP">
+    <name>Untitled</name>
+    <description/>
+    <Style id="__style_0">
+      <IconStyle>
+        <Icon>
+          <href><![CDATA[https://earth.google.com/earth/rpc/cc/icon?id=2000&color=fbc02d&scale=4.0]]></href>
+        </Icon>
+        <hotSpot x="64" xunits="pixels" y="128" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <color>ffffffff</color>
+        <scale>1</scale>
+      </LabelStyle>
+      <LineStyle>
+        <color>ff2dc0fb</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>40ffffff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <displayMode>default</displayMode>
+      </BalloonStyle>
+    </Style>
+    <Style id="__style_1">
+      <IconStyle>
+        <Icon>
+          <href><![CDATA[https://earth.google.com/earth/rpc/cc/icon?id=2000&color=1976d2&scale=4.0]]></href>
+        </Icon>
+        <hotSpot x="64" xunits="pixels" y="128" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <color>ffffffff</color>
+        <scale>1</scale>
+      </LabelStyle>
+      <LineStyle>
+        <color>ff2dc0fb</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>40ffffff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <displayMode>default</displayMode>
+      </BalloonStyle>
+    </Style>
+    <Schema id="schema" name="__schema"/>
+    <Placemark id="0EC11A89743255695F21">
+      <name>1016 Chisolm Ave</name>
+      <LookAt>
+        <longitude>-85.7260958</longitude>
+        <latitude>34.946893</latitude>
+        <altitude>0</altitude>
+        <heading>0</heading>
+        <tilt>0</tilt>
+        <range>1885.52558296333</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </LookAt>
+      <styleUrl>#__style_0</styleUrl>
+      <ExtendedData>
+        <SchemaData schemaUrl="#schema"/>
+      </ExtendedData>
+      <Point>
+        <extrude>0</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -85.7260958,34.946893,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="02A8768C8832557CF45D">
+      <name>Untitled measurement</name>
+      <visibility>1</visibility>
+      <LookAt>
+        <longitude>-85.7277953432853</longitude>
+        <latitude>34.9452604983719</latitude>
+        <altitude>215.978998259776</altitude>
+        <heading>349.899751950198</heading>
+        <tilt>0</tilt>
+        <range>39.2353733742084</range>
+        <altitudeMode>absolute</altitudeMode>
+      </LookAt>
+      <styleUrl>#__style_1</styleUrl>
+      <ExtendedData>
+        <SchemaData schemaUrl="#schema"/>
+      </ExtendedData>
+      <LineString>
+        <extrude>0</extrude>
+        <tessellate>0</tessellate>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>
+          -85.7268991465592,34.9452397503145,0
+          -85.7277955210521,34.9452608953427,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>
